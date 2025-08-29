@@ -49,17 +49,13 @@
                     <i class="fas fa-bars text-xl"></i>
                 </button>
                 <div class="flex items-center">
-                    <img src="../public/assets/images/UNSMescudo.png" alt="Logo de la universidad" class="h-10 mr-2">
+                    <img src="<?= base_url('assets/images/UNSMescudo.png') ?>" alt="Logo de la universidad" class="h-10 mr-2">
                     <span class="text-xl font-bold">Sistema de Inventario de equipos | UNSM</span>
                 </div>
             </div>
             <div class="flex items-center space-x-6">
-                <div class="relative hidden md:block">
-                    <input type="text" placeholder="Buscar equipo..." class="border px-3 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-white">
-                    <i class="fas fa-search absolute right-3 top-3 text-green-500"></i>
-                </div>
                 <div class="flex items-center space-x-2 cursor-pointer">
-                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/4d8c2055-986e-499e-a54c-18212b5833c4.png" alt="Foto de perfil del usuario - Persona con bata de laboratorio" class="h-8 w-8 rounded-full">
+                    <img src="<?= base_url('assets/images/UNSMescudo.png') ?>" alt="Foto de perfil del usuario - Persona con bata de laboratorio" class="h-8 w-8 rounded-full">
                     <span class="hidden md:inline">Admin</span>
                     <i class="fas fa-chevron-down text-sm"></i>
                 </div>
@@ -74,7 +70,7 @@
             <div class="px-4 py-6">
                 <div class="flex justify-between items-center mb-8">
                     <div class="text-center">
-                        <img src="../public/assets/images/oti.jpg" alt="OFICINA TECNOLOGÍAS DE LA INFORMACIÓN" class="h-20 mx-auto">
+                        <img src="<?= base_url('assets/images/oti.jpg') ?>" alt="OFICINA TECNOLOGÍAS DE LA INFORMACIÓN" class="h-20 mx-auto">
                         <h2 class="text-xl font-semibold mt-4">OFICINA DE TECNOLOGÍAS DE LA INFORMACIÓN</h2>
                     </div>
                     <button id="sidebar-toggle" class="toggle-btn text-gray-500 hover:text-blue-700 focus:outline-none">
@@ -83,14 +79,14 @@
                 </div>
                 <ul class="space-y-2">
                     <li>
-                        <a href="#" class="flex items-center px-4 py-3 text-blue-800 bg-blue-100 rounded-lg">
+                        <a href=""  class="flex items-center px-4 py-3 text-blue-800 bg-blue-100 rounded-lg">
                             <i class="fas fa-tachometer-alt mr-3"></i>
                             <span>Dashboard</span>
                         </a>
                     </li>
                     <li>
-                        <a href="equipos.php"
-                          class="flex items-center px-4 py-3 text-gray-600 hover:bg-blue-50 rounded-lg">
+                        <a href="<?= base_url('equipos') ?>" 
+                        class="flex items-center px-4 py-3 text-gray-600 hover:bg-blue-50 rounded-lg">
                             <i class="fas fa-laptop mr-3"></i>
                             <span>Equipos</span>
                         </a>

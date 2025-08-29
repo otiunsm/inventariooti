@@ -41,7 +41,7 @@
                 <p class="text-muted">Iniciar sesión</p>
             </div>
             
-            <form action="<?php echo base_url('/login') ?>" id="loginForm" method="POST">
+            <form action="<?= base_url('/validar') ?>" id="loginForm" method="POST">
                 <div class="mb-3">
                     <label class="form-label">Usuario</label>
                     <input type="text" name="usuario" class="form-control" required>
@@ -54,6 +54,12 @@
                     <button type="submit" class="btn btn-unsm">Ingresar</button>
                 </div>
             </form>
+
+            <!--Muestra mensaje de error-->
+            <?php if(session()->getFlashdata('error')): ?>
+                <p style="color:red;"><?= session()->getFlashdata('error') ?></p>
+            <?php endif; ?>
+
         </div>
     </div>
     <!-- scripts -->

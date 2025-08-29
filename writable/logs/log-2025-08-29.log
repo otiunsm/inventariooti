@@ -1,0 +1,988 @@
+CRITICAL - 2025-08-29 01:50:33 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: validar]
+in SYSTEMPATH\Database\BaseConnection.php on line 944.
+ 1 SYSTEMPATH\Model.php(713): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(917): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\AuthController.php(22): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->validar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 01:55:59 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: validar]
+in SYSTEMPATH\Database\BaseConnection.php on line 944.
+ 1 SYSTEMPATH\Model.php(713): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(917): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\AuthController.php(22): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->validar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 02:04:17 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: validar]
+in SYSTEMPATH\Database\BaseConnection.php on line 944.
+ 1 SYSTEMPATH\Model.php(713): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(917): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\AuthController.php(22): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->validar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 02:06:14 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: validar]
+in SYSTEMPATH\Database\BaseConnection.php on line 944.
+ 1 SYSTEMPATH\Model.php(713): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(917): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\AuthController.php(22): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->validar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 02:06:20 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: validar]
+in SYSTEMPATH\Database\BaseConnection.php on line 944.
+ 1 SYSTEMPATH\Model.php(713): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(917): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\AuthController.php(22): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->validar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-08-29 02:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-29 02:06:33 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: validar]
+in SYSTEMPATH\Database\BaseConnection.php on line 944.
+ 1 SYSTEMPATH\Model.php(713): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(917): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\AuthController.php(22): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->validar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-08-29 02:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-29 02:07:38 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: validar]
+in SYSTEMPATH\Database\BaseConnection.php on line 944.
+ 1 SYSTEMPATH\Model.php(713): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(917): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\AuthController.php(22): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->validar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-08-29 02:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 02:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-29 02:08:30 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: validar]
+in SYSTEMPATH\Database\BaseConnection.php on line 944.
+ 1 SYSTEMPATH\Model.php(713): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(917): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\AuthController.php(22): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->validar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-08-29 03:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 03:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 03:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 03:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 03:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 03:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 03:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 03:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 03:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 03:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 03:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 03:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 03:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 03:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 03:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 03:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 03:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 03:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 03:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 03:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-29 03:17:15 --> ParseError: syntax error, unexpected variable "$routes"
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 03:17:21 --> ParseError: syntax error, unexpected variable "$routes"
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 03:17:22 --> ParseError: syntax error, unexpected variable "$routes"
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 03:17:29 --> ParseError: syntax error, unexpected variable "$routes"
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 03:17:57 --> ParseError: syntax error, unexpected variable "$routes"
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 03:19:30 --> ParseError: syntax error, unexpected variable "$routes"
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-08-29 03:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 03:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-29 03:24:14 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: validar]
+in APPPATH\Controllers\AuthController.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->validar()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-08-29 03:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-29 03:28:57 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: validar]
+in APPPATH\Controllers\AuthController.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->validar()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-08-29 03:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 03:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-29 03:29:09 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: validar]
+in APPPATH\Controllers\AuthController.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->validar()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-08-29 03:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-29 03:35:28 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: validar]
+in APPPATH\Controllers\AuthController.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->validar()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-08-29 03:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 03:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 03:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 03:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 03:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 04:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 04:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-29 04:27:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/base.php"
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/base.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/base', [], true)
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 4 APPPATH\Controllers\Home.php(14): view('dashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-08-29 04:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 04:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 04:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-29 04:27:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/base.php"
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/base.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/base', [], true)
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 4 APPPATH\Controllers\Home.php(14): view('dashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 04:30:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard.php"
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(14): view('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-08-29 04:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 04:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-29 04:30:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard.php"
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(14): view('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 04:31:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard.php"
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(14): view('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 05:04:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/main.php"
+[Method: GET, Route: equipos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/main.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/main', [], true)
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipos/index', [], true)
+ 4 APPPATH\Controllers\EquiposController.php(14): view('equipos/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-08-29 05:06:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/navbar.php"
+[Method: GET, Route: equipos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/navbar.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('partials/navbar', [], true)
+ 3 APPPATH\Views\layout\main.php(24): view('partials/navbar')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\main.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/main', [], true)
+ 7 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipos/index', [], true)
+ 8 APPPATH\Controllers\EquiposController.php(14): view('equipos/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-08-29 05:06:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/navbar.php"
+[Method: GET, Route: equipos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/navbar.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('partials/navbar', [], true)
+ 3 APPPATH\Views\layout\main.php(24): view('partials/navbar')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\main.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/main', [], true)
+ 7 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipos/index', [], true)
+ 8 APPPATH\Controllers\EquiposController.php(14): view('equipos/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-08-29 05:09:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/navbar.php"
+[Method: GET, Route: equipos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/navbar.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('/navbar', [], true)
+ 3 APPPATH\Views\layout\main.php(24): view('/navbar')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\main.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/main', [], true)
+ 7 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipos/index', [], true)
+ 8 APPPATH\Controllers\EquiposController.php(14): view('equipos/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-08-29 05:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 05:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-29 05:14:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/main.php"
+[Method: GET, Route: equipos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/main.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/main', [], true)
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipos/index', [], true)
+ 4 APPPATH\Controllers\EquiposController.php(14): view('equipos/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-08-29 05:15:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/navbar.php"
+[Method: GET, Route: equipos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/navbar.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('/navbar', [], true)
+ 3 APPPATH\Views\layout\main.php(24): view('/navbar')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\main.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/main', [], true)
+ 7 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipos/index', [], true)
+ 8 APPPATH\Controllers\EquiposController.php(14): view('equipos/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-08-29 05:20:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/navbar.php"
+[Method: GET, Route: equipos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/navbar.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('/navbar', [], true)
+ 3 APPPATH\Views\layout\main.php(24): view('/navbar')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\main.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/main', [], true)
+ 7 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipos/index', [], true)
+ 8 APPPATH\Controllers\EquiposController.php(14): view('equipos/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-08-29 05:20:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/navbar.php"
+[Method: GET, Route: equipos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/navbar.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('/navbar', [], true)
+ 3 APPPATH\Views\layout\main.php(24): view('/navbar')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\main.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/main', [], true)
+ 7 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipos/index', [], true)
+ 8 APPPATH\Controllers\EquiposController.php(14): view('equipos/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+DEBUG - 2025-08-29 05:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 05:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 05:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 05:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 05:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 05:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 05:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 05:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-29 05:39:44 --> ErrorException: Undefined variable $uri
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 89.
+ 1 APPPATH\Views\dashboard.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $uri', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\dashboard.php', 89)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-08-29 05:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 05:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-29 05:39:56 --> ErrorException: Undefined variable $uri
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 89.
+ 1 APPPATH\Views\dashboard.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $uri', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\dashboard.php', 89)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-08-29 05:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 05:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 06:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 06:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-29 06:13:55 --> ArgumentCountError: Too few arguments to function service(), 0 passed in C:\xampp\htdocs\sistemainventario\app\Views\dashboard.php on line 81 and exactly 1 expected
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Common.php on line 992.
+ 1 APPPATH\Views\dashboard.php(81): service()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-08-29 10:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 10:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 10:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 10:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-29 11:08:19 --> ParseError: syntax error, unexpected double-quoted string " ?> class=", expecting "," or ";"
+[Method: GET, Route: equipos]
+in APPPATH\Views\layout\sidebar.php on line 20.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/sidebar', null, true)
+ 3 APPPATH\Views\layout\main.php(25): CodeIgniter\View\View->include('layout/sidebar')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\main.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/main', [], true)
+ 7 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipos/index', [], true)
+ 8 APPPATH\Controllers\EquiposController.php(14): view('equipos/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-08-29 11:08:20 --> ParseError: syntax error, unexpected double-quoted string " ?> class=", expecting "," or ";"
+[Method: GET, Route: equipos]
+in APPPATH\Views\layout\sidebar.php on line 20.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/sidebar', null, true)
+ 3 APPPATH\Views\layout\main.php(25): CodeIgniter\View\View->include('layout/sidebar')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\main.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/main', [], true)
+ 7 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipos/index', [], true)
+ 8 APPPATH\Controllers\EquiposController.php(14): view('equipos/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+DEBUG - 2025-08-29 11:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 11:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-29 11:29:05 --> ErrorException: Undefined variable $currentURL
+[Method: GET, Route: equipos]
+in APPPATH\Views\layout\sidebar.php on line 16.
+ 1 APPPATH\Views\layout\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentURL', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/sidebar', null, true)
+ 5 APPPATH\Views\layout\main.php(25): CodeIgniter\View\View->include('layout/sidebar')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\main.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/main', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipos/index', [], true)
+10 APPPATH\Controllers\EquiposController.php(14): view('equipos/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 11:31:23 --> ErrorException: Undefined variable $currentURL
+[Method: GET, Route: equipos]
+in APPPATH\Views\layout\sidebar.php on line 16.
+ 1 APPPATH\Views\layout\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentURL', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/sidebar', null, true)
+ 5 APPPATH\Views\layout\main.php(25): CodeIgniter\View\View->include('layout/sidebar')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\main.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/main', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipos/index', [], true)
+10 APPPATH\Controllers\EquiposController.php(14): view('equipos/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 11:31:30 --> ErrorException: Undefined variable $currentURL
+[Method: GET, Route: equipos]
+in APPPATH\Views\layout\sidebar.php on line 16.
+ 1 APPPATH\Views\layout\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentURL', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/sidebar', null, true)
+ 5 APPPATH\Views\layout\main.php(25): CodeIgniter\View\View->include('layout/sidebar')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\main.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/main', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipos/index', [], true)
+10 APPPATH\Controllers\EquiposController.php(14): view('equipos/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 11:31:36 --> ErrorException: Undefined variable $currentURL
+[Method: GET, Route: equipos]
+in APPPATH\Views\layout\sidebar.php on line 16.
+ 1 APPPATH\Views\layout\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentURL', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/sidebar', null, true)
+ 5 APPPATH\Views\layout\main.php(25): CodeIgniter\View\View->include('layout/sidebar')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\main.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/main', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipos/index', [], true)
+10 APPPATH\Controllers\EquiposController.php(14): view('equipos/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 11:31:41 --> ErrorException: Undefined variable $currentURL
+[Method: GET, Route: equipos]
+in APPPATH\Views\layout\sidebar.php on line 16.
+ 1 APPPATH\Views\layout\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentURL', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/sidebar', null, true)
+ 5 APPPATH\Views\layout\main.php(25): CodeIgniter\View\View->include('layout/sidebar')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\main.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/main', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipos/index', [], true)
+10 APPPATH\Controllers\EquiposController.php(14): view('equipos/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 11:33:27 --> ErrorException: Undefined variable $currentURL
+[Method: GET, Route: equipos]
+in APPPATH\Views\layout\sidebar.php on line 16.
+ 1 APPPATH\Views\layout\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentURL', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/sidebar', null, true)
+ 5 APPPATH\Views\layout\main.php(25): CodeIgniter\View\View->include('layout/sidebar')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\main.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/main', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipos/index', [], true)
+10 APPPATH\Controllers\EquiposController.php(14): view('equipos/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 11:33:31 --> ErrorException: Undefined variable $currentURL
+[Method: GET, Route: equipos]
+in APPPATH\Views\layout\sidebar.php on line 16.
+ 1 APPPATH\Views\layout\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentURL', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/sidebar', null, true)
+ 5 APPPATH\Views\layout\main.php(25): CodeIgniter\View\View->include('layout/sidebar')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\main.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/main', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipos/index', [], true)
+10 APPPATH\Controllers\EquiposController.php(14): view('equipos/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 11:34:34 --> ErrorException: Undefined variable $currentURL
+[Method: GET, Route: equipos]
+in APPPATH\Views\layout\sidebar.php on line 16.
+ 1 APPPATH\Views\layout\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentURL', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/sidebar', null, true)
+ 5 APPPATH\Views\layout\main.php(25): CodeIgniter\View\View->include('layout/sidebar')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\main.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/main', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipos/index', [], true)
+10 APPPATH\Controllers\EquiposController.php(14): view('equipos/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 11:37:37 --> ErrorException: Undefined variable $currentURL
+[Method: GET, Route: equipos]
+in APPPATH\Views\layout\sidebar.php on line 16.
+ 1 APPPATH\Views\layout\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentURL', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/sidebar', null, true)
+ 5 APPPATH\Views\layout\main.php(25): CodeIgniter\View\View->include('layout/sidebar')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\main.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/main', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipos/index', [], true)
+10 APPPATH\Controllers\EquiposController.php(14): view('equipos/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-08-29 11:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 11:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 11:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 11:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-29 12:00:07 --> ParseError: syntax error, unexpected double-quoted string " alt=", expecting "," or ";"
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 52.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(14): view('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 13:03:22 --> Error: Class "App\Controllers\EquipoModel" not found
+[Method: GET, Route: equipos]
+in APPPATH\Controllers\EquiposController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\EquiposController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 13:06:59 --> Error: Class "App\Controllers\EquipoModel" not found
+[Method: GET, Route: equipos]
+in APPPATH\Controllers\EquiposController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\EquiposController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 13:10:15 --> ErrorException: Undefined variable $equipos
+[Method: GET, Route: equipos]
+in APPPATH\Views\equipos\index.php on line 21.
+ 1 APPPATH\Views\equipos\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $equipos', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\equipos\\index.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\equipos\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipos/index', [], true)
+ 5 APPPATH\Controllers\EquiposController.php(22): view('equipos/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 13:11:33 --> ErrorException: Undefined variable $equipos
+[Method: GET, Route: equipos]
+in APPPATH\Views\equipos\index.php on line 21.
+ 1 APPPATH\Views\equipos\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $equipos', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\equipos\\index.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\equipos\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipos/index', [], true)
+ 5 APPPATH\Controllers\EquiposController.php(22): view('equipos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 13:11:51 --> ErrorException: Undefined variable $equipos
+[Method: GET, Route: equipos]
+in APPPATH\Views\equipos\index.php on line 21.
+ 1 APPPATH\Views\equipos\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $equipos', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\equipos\\index.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\equipos\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipos/index', [], true)
+ 5 APPPATH\Controllers\EquiposController.php(22): view('equipos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 13:12:48 --> ErrorException: Undefined variable $equipos
+[Method: GET, Route: equipos]
+in APPPATH\Views\equipos\index.php on line 21.
+ 1 APPPATH\Views\equipos\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $equipos', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\equipos\\index.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\equipos\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipos/index', [], true)
+ 5 APPPATH\Controllers\EquiposController.php(22): view('equipos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 13:19:43 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: equipos]
+in APPPATH\Views\equipos\index.php on line 39.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipos/index', [], true)
+ 3 APPPATH\Controllers\EquiposController.php(22): view('equipos/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 13:25:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "equipo/index.php"
+[Method: GET, Route: equipos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('equipo/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipo/index', [], true)
+ 3 APPPATH\Controllers\EquiposController.php(21): view('equipo/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 13:29:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "equipo/index.php"
+[Method: GET, Route: equipos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('equipo/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipo/index', [], true)
+ 3 APPPATH\Controllers\EquiposController.php(22): view('equipo/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-08-29 13:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 13:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-29 13:29:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "equipo/index.php"
+[Method: GET, Route: equipos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('equipo/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipo/index', [], true)
+ 3 APPPATH\Controllers\EquiposController.php(22): view('equipo/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-08-29 13:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 13:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-29 13:57:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "equipo/index.php"
+[Method: GET, Route: equipos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('equipo/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipo/index', [], true)
+ 3 APPPATH\Controllers\EquiposController.php(22): view('equipo/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 13:58:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "equipo/index.php"
+[Method: GET, Route: equipos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('equipo/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipo/index', [], true)
+ 3 APPPATH\Controllers\EquiposController.php(22): view('equipo/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 13:58:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "equipo/index.php"
+[Method: GET, Route: equipos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('equipo/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipo/index', [], true)
+ 3 APPPATH\Controllers\EquiposController.php(22): view('equipo/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-08-29 14:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 14:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-29 14:04:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "equipo/index.php"
+[Method: GET, Route: equipos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('equipo/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipo/index', [], true)
+ 3 APPPATH\Controllers\EquiposController.php(22): view('equipo/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 14:06:09 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "equipo/index.php"
+[Method: GET, Route: equipos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('equipo/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipo/index', [], true)
+ 3 APPPATH\Controllers\EquiposController.php(22): view('equipo/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 14:06:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "equipo/index.php"
+[Method: GET, Route: equipos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('equipo/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipo/index', [], true)
+ 3 APPPATH\Controllers\EquiposController.php(22): view('equipo/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 14:08:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "equipo/index.php"
+[Method: GET, Route: equipos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('equipo/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipo/index', [], true)
+ 3 APPPATH\Controllers\EquiposController.php(22): view('equipo/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 14:09:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "equipo/index.php"
+[Method: GET, Route: equipos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('equipo/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipo/index', [], true)
+ 3 APPPATH\Controllers\EquiposController.php(22): view('equipo/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 14:09:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "equipo/index.php"
+[Method: GET, Route: equipos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('equipo/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipo/index', [], true)
+ 3 APPPATH\Controllers\EquiposController.php(22): view('equipo/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 14:20:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "equipo/index.php"
+[Method: GET, Route: equipos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('equipo/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipo/index', [], true)
+ 3 APPPATH\Controllers\EquiposController.php(22): view('equipo/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EquiposController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquiposController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-29 14:40:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "equipo/index.php"
+[Method: GET, Route: equipos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('equipo/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipo/index', [], true)
+ 3 APPPATH\Controllers\Equipo.php(13): view('equipo/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipo->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipo))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-08-29 14:40:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "equipo/index.php"
+[Method: GET, Route: equipos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('equipo/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipo/index', [], true)
+ 3 APPPATH\Controllers\Equipo.php(13): view('equipo/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipo->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipo))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+DEBUG - 2025-08-29 14:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-29 14:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
