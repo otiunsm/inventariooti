@@ -79,14 +79,15 @@
                 </div>
                 <ul class="space-y-2">
                     <li>
-                        <a href=""  class="flex items-center px-4 py-3 text-blue-800 bg-blue-100 rounded-lg">
+                        <a href="<?= base_url('dashboard') ?>"  
+                            class="flex items-center px-4 py-3 rounded-lg <?= (uri_string() == 'dashboard') ? 'text-blue-800 bg-blue-100' : 'text-gray-600 hover:bg-blue-50' ?>">
                             <i class="fas fa-tachometer-alt mr-3"></i>
                             <span>Dashboard</span>
                         </a>
                     </li>
                     <li>
                         <a href="<?= base_url('equipos') ?>" 
-                        class="flex items-center px-4 py-3 text-gray-600 hover:bg-blue-50 rounded-lg">
+                        class="flex items-center px-4 py-3 rounded-lg <?= (uri_string() == 'equipos') ? 'text-blue-800 bg-blue-100' : 'text-gray-600 hover:bg-blue-50' ?>">
                             <i class="fas fa-laptop mr-3"></i>
                             <span>Equipos</span>
                         </a>

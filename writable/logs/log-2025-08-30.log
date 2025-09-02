@@ -1,0 +1,137 @@
+CRITICAL - 2025-08-30 15:18:21 --> ErrorException: Undefined variable $data
+[Method: GET, Route: equipos]
+in APPPATH\Controllers\Equipos.php on line 13.
+ 1 APPPATH\Controllers\Equipos.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Controllers\\Equipos.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-30 15:18:58 --> ErrorException: Undefined variable $data
+[Method: GET, Route: equipos]
+in APPPATH\Controllers\Equipos.php on line 13.
+ 1 APPPATH\Controllers\Equipos.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Controllers\\Equipos.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-30 15:18:59 --> ErrorException: Undefined variable $data
+[Method: GET, Route: equipos]
+in APPPATH\Controllers\Equipos.php on line 13.
+ 1 APPPATH\Controllers\Equipos.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Controllers\\Equipos.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-30 15:19:11 --> ErrorException: Undefined variable $data
+[Method: GET, Route: equipos]
+in APPPATH\Controllers\Equipos.php on line 13.
+ 1 APPPATH\Controllers\Equipos.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Controllers\\Equipos.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-30 16:21:21 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\EquipoModel::obtenerJoin
+[Method: GET, Route: equipos]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\Equipos.php(12): CodeIgniter\Model->__call('obtenerJoin', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-30 16:22:48 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\EquipoModel::obtenerJoin
+[Method: GET, Route: equipos]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\Equipos.php(12): CodeIgniter\Model->__call('obtenerJoin', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-30 16:23:43 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\EquipoModel::obtenerJoin
+[Method: GET, Route: equipos]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\Equipos.php(12): CodeIgniter\Model->__call('obtenerJoin', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-30 16:27:13 --> ErrorException: Undefined array key "id_tipoEquipo"
+[Method: GET, Route: equipos]
+in APPPATH\Views\equipos\index.php on line 24.
+ 1 APPPATH\Views\equipos\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_tipoEquipo"', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\equipos\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\equipos\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipos/index', [], true)
+ 5 APPPATH\Controllers\Equipos.php(13): view('equipos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-30 16:29:18 --> ErrorException: Undefined array key "id_tipoequipo"
+[Method: GET, Route: equipos]
+in APPPATH\Views\equipos\index.php on line 24.
+ 1 APPPATH\Views\equipos\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_tipoequipo"', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\equipos\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\equipos\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipos/index', [], true)
+ 5 APPPATH\Controllers\Equipos.php(13): view('equipos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-30 16:32:44 --> ErrorException: Undefined array key "id_estadoEquipo"
+[Method: GET, Route: equipos]
+in APPPATH\Views\equipos\index.php on line 30.
+ 1 APPPATH\Views\equipos\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_estadoEquipo"', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\equipos\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\equipos\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipos/index', [], true)
+ 5 APPPATH\Controllers\Equipos.php(13): view('equipos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-30 16:32:46 --> ErrorException: Undefined array key "id_estadoEquipo"
+[Method: GET, Route: equipos]
+in APPPATH\Views\equipos\index.php on line 30.
+ 1 APPPATH\Views\equipos\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_estadoEquipo"', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\equipos\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\equipos\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('equipos/index', [], true)
+ 5 APPPATH\Controllers\Equipos.php(13): view('equipos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-30 16:42:44 --> ParseError: syntax error, unexpected token "=>", expecting ")"
+[Method: GET, Route: equipos]
+in APPPATH\Controllers\Equipos.php on line 13.
+ 1 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sistemainventario\\vendor\\composer/../../app\\Controllers\\Equipos.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Equipos')
+ 3 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Equipos', true)
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
