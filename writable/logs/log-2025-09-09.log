@@ -1,0 +1,379 @@
+CRITICAL - 2025-09-09 15:31:49 --> ErrorException: Undefined variable $current_page_lower
+[Method: GET, Route: AequiAdminis]
+in APPPATH\Views\layout\sidebar.php on line 29.
+ 1 APPPATH\Views\layout\sidebar.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $current_page_lower', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\sidebar.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/sidebar', [], true)
+ 5 APPPATH\Views\layout\main.php(52): view('layout/sidebar')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\layout\\main.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/main', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('AequiAdministrativos', [], true)
+10 APPPATH\Controllers\AequipoAdmin.php(9): view('AequiAdministrativos')
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AequipoAdmin->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AequipoAdmin))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-09 18:11:20 --> ErrorException: Undefined variable $equipos
+[Method: GET, Route: AequiAcademi]
+in APPPATH\Views\AequiAcademico.php on line 20.
+ 1 APPPATH\Views\AequiAcademico.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $equipos', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\AequiAcademico.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\AequiAcademico.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('AequiAcademico', [], true)
+ 5 APPPATH\Controllers\AequipoAcadem.php(9): view('AequiAcademico')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AequipoAcadem->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AequipoAcadem))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-09 18:11:26 --> ErrorException: Undefined variable $equipos
+[Method: GET, Route: AequiAcademi]
+in APPPATH\Views\AequiAcademico.php on line 20.
+ 1 APPPATH\Views\AequiAcademico.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $equipos', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\AequiAcademico.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\AequiAcademico.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('AequiAcademico', [], true)
+ 5 APPPATH\Controllers\AequipoAcadem.php(9): view('AequiAcademico')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AequipoAcadem->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AequipoAcadem))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-09 21:26:47 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Model.php on line 925
+[Method: GET, Route: AequiAdminis]
+in SYSTEMPATH\Database\BaseBuilder.php on line 403.
+ 1 SYSTEMPATH\Model.php(925): CodeIgniter\Database\BaseBuilder->select('equipo.id_equipo AS id_asignacion', 'computadoradeescritorio.codigoPatrimonial AS codig_patrimonial', 'unidad_organica.nombre AS unidad_asignada', 'NOW() AS fecha', 'estadoequipo.estado AS estado')
+ 2 APPPATH\Models\AsignacionEquipoModel.php(20): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\AequipoAdmin.php(16): App\Models\AsignacionEquipoModel->obtenerAsigAdministrativas()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AequipoAdmin->listar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AequipoAdmin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-09 21:27:29 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Model.php on line 925
+[Method: GET, Route: AequiAdminis]
+in SYSTEMPATH\Database\BaseBuilder.php on line 403.
+ 1 SYSTEMPATH\Model.php(925): CodeIgniter\Database\BaseBuilder->select('equipo.id_equipo AS id_asignacion', 'computadoradeescritorio.codigoPatrimonial AS codig_patrimonial', 'unidad_organica.nombre AS unidad_asignada', 'NOW() AS fecha', 'estadoequipo.estado AS estado')
+ 2 APPPATH\Models\AsignacionEquipoModel.php(20): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\AequipoAdmin.php(16): App\Models\AsignacionEquipoModel->obtenerAsigAdministrativas()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AequipoAdmin->listar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AequipoAdmin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-09 21:30:43 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Model.php on line 925
+[Method: GET, Route: AequiAdminis]
+in SYSTEMPATH\Database\BaseBuilder.php on line 403.
+ 1 SYSTEMPATH\Model.php(925): CodeIgniter\Database\BaseBuilder->select('equipo.id_equipo AS id_asignacion', 'computadoradeescritorio.codigoPatrimonial AS codig_patrimonial', 'unidad_organica.nombre AS unidad_asignada', 'NOW() AS fecha', 'estadoequipo.estado AS estado')
+ 2 APPPATH\Models\AsignacionEquipoModel.php(20): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\AequipoAdmin.php(16): App\Models\AsignacionEquipoModel->obtenerAsigAdministrativas()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AequipoAdmin->listar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AequipoAdmin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-09 21:30:44 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Model.php on line 925
+[Method: GET, Route: AequiAdminis]
+in SYSTEMPATH\Database\BaseBuilder.php on line 403.
+ 1 SYSTEMPATH\Model.php(925): CodeIgniter\Database\BaseBuilder->select('equipo.id_equipo AS id_asignacion', 'computadoradeescritorio.codigoPatrimonial AS codig_patrimonial', 'unidad_organica.nombre AS unidad_asignada', 'NOW() AS fecha', 'estadoequipo.estado AS estado')
+ 2 APPPATH\Models\AsignacionEquipoModel.php(20): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\AequipoAdmin.php(16): App\Models\AsignacionEquipoModel->obtenerAsigAdministrativas()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AequipoAdmin->listar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AequipoAdmin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-09 21:31:37 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Model.php on line 925
+[Method: GET, Route: AequiAdminis]
+in SYSTEMPATH\Database\BaseBuilder.php on line 403.
+ 1 SYSTEMPATH\Model.php(925): CodeIgniter\Database\BaseBuilder->select('equipo.id_equipo AS id_asignacion', 'computadoradeescritorio.codigoPatrimonial AS codig_patrimonial', 'unidad_organica.nombre AS unidad_asignada', 'NOW() AS fecha', 'estadoequipo.estado AS estado')
+ 2 APPPATH\Models\AsignacionEquipoModel.php(20): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\AequipoAdmin.php(12): App\Models\AsignacionEquipoModel->obtenerAsigAdministrativas()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AequipoAdmin->listar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AequipoAdmin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-09 21:31:40 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Model.php on line 925
+[Method: GET, Route: AequiAdminis]
+in SYSTEMPATH\Database\BaseBuilder.php on line 403.
+ 1 SYSTEMPATH\Model.php(925): CodeIgniter\Database\BaseBuilder->select('equipo.id_equipo AS id_asignacion', 'computadoradeescritorio.codigoPatrimonial AS codig_patrimonial', 'unidad_organica.nombre AS unidad_asignada', 'NOW() AS fecha', 'estadoequipo.estado AS estado')
+ 2 APPPATH\Models\AsignacionEquipoModel.php(20): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\AequipoAdmin.php(12): App\Models\AsignacionEquipoModel->obtenerAsigAdministrativas()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AequipoAdmin->listar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AequipoAdmin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-09 21:31:43 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Model.php on line 925
+[Method: GET, Route: AequiAdminis]
+in SYSTEMPATH\Database\BaseBuilder.php on line 403.
+ 1 SYSTEMPATH\Model.php(925): CodeIgniter\Database\BaseBuilder->select('equipo.id_equipo AS id_asignacion', 'computadoradeescritorio.codigoPatrimonial AS codig_patrimonial', 'unidad_organica.nombre AS unidad_asignada', 'NOW() AS fecha', 'estadoequipo.estado AS estado')
+ 2 APPPATH\Models\AsignacionEquipoModel.php(20): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\AequipoAdmin.php(12): App\Models\AsignacionEquipoModel->obtenerAsigAdministrativas()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AequipoAdmin->listar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AequipoAdmin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-09 21:41:37 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Model.php on line 925
+[Method: GET, Route: AequiAdminis]
+in SYSTEMPATH\Database\BaseBuilder.php on line 403.
+ 1 SYSTEMPATH\Model.php(925): CodeIgniter\Database\BaseBuilder->select('equipo.id_equipo AS id_asignacion', 'computadoradeescritorio.codigoPatrimonial AS codig_patrimonial', 'unidad_organica.nombre AS unidad_asignada', 'NOW() AS fecha', 'estadoequipo.estado AS estado')
+ 2 APPPATH\Models\AsignacionEquipoModel.php(20): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\AequipoAdmin.php(12): App\Models\AsignacionEquipoModel->obtenerAsigAdministrativas()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AequipoAdmin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AequipoAdmin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-09 21:42:30 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Model.php on line 925
+[Method: GET, Route: AequiAdminis]
+in SYSTEMPATH\Database\BaseBuilder.php on line 403.
+ 1 SYSTEMPATH\Model.php(925): CodeIgniter\Database\BaseBuilder->select('equipo.id_equipo AS id_asignacion', 'computadoradeescritorio.codigoPatrimonial AS codig_patrimonial', 'unidad_organica.nombre AS unidad_asignada', 'NOW() AS fecha', 'estadoequipo.estado AS estado')
+ 2 APPPATH\Models\AsignacionEquipoModel.php(20): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\AequipoAdmin.php(12): App\Models\AsignacionEquipoModel->obtenerAsigAdministrativas()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AequipoAdmin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AequipoAdmin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+ERROR - 2025-09-09 21:44:38 --> mysqli_sql_exception: Table 'inventarioequipos.computadoradeescritorio' doesn't exist in C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `equipo`...', 0)
+#1 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `equipo`...')
+#2 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `equipo`...')
+#3 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `equipo`...', Array, false)
+#4 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sistemainventario\app\Models\AsignacionEquipoModel.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sistemainventario\app\Controllers\AequipoAdmin.php(12): App\Models\AsignacionEquipoModel->obtenerAsigAdministrativas()
+#8 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\AequipoAdmin->index()
+#9 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AequipoAdmin))
+#10 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\sistemainventario\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-09-09 21:44:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'inventarioequipos.computadoradeescritorio' doesn't exist
+[Method: GET, Route: AequiAdminis]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `equipo`.`id_equipo` AS `id_asignacion`, `computadoradeescritorio`.`codigoPatrimonial` AS `codig_patrimonial`, `unidad_organica`.`nombre` AS `unidad_asignada`, `fecha_asignacion` AS `fecha`, `estadoequipo`.`estado` AS `estado`
+FROM `equipo`
+JOIN `computadoradeescritorio` ON `computadoradeescritorio`.`id_computadoraDeEscritorio` = `equipo`.`id_equipo`
+JOIN `unidad_organica` ON `unidad_organica`.`id_unidadOrganica` = `equipo`.`id_unidadOrganicaEquipo`
+JOIN `estadoequipo` ON `estadoequipo`.`id_estado` = `equipo`.`id_estadoEquipo`
+JOIN `tipo_unidadorganica` ON `tipo_unidadorganica`.`id_tipo` = `unidad_organica`.`id_tipoUnidadOrganica`
+WHERE `tipo_unidadorganica`.`id_tipo` = :tipo_unidadorganica.id_tipo:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AsignacionEquipoModel.php(30): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\AequipoAdmin.php(12): App\Models\AsignacionEquipoModel->obtenerAsigAdministrativas()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AequipoAdmin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AequipoAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-09 21:44:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'inventarioequipos.computadoradeescritorio' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `equipo`.`id_equipo` AS `id_asignacion`, `computadoradeescritorio`.`codigoPatrimonial` AS `codig_patrimonial`, `unidad_organica`.`nombre` AS `unidad_asignada`, `fecha_asignacion` AS `fecha`, `estadoequipo`.`estado` AS `estado`
+FROM `equipo`
+JOIN `computadoradeescritorio` ON `computadoradeescritorio`.`id_computadoraDeEscritorio` = `equipo`.`id_equipo`
+JOIN `unidad_organica` ON `unidad_organica`.`id_unidadOrganica` = `equipo`.`id_unidadOrganicaEquipo`
+JOIN `estadoequipo` ON `estadoequipo`.`id_estado` = `equipo`.`id_estadoEquipo`
+JOIN `tipo_unidadorganica` ON `tipo_unidadorganica`.`id_tipo` = `unidad_organica`.`id_tipoUnidadOrganica`
+WHERE `tipo_unidadorganica`.`id_tipo` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `equipo`.`id_equipo` AS `id_asignacion`, `computadoradeescritorio`.`codigoPatrimonial` AS `codig_patrimonial`, `unidad_organica`.`nombre` AS `unidad_asignada`, `fecha_asignacion` AS `fecha`, `estadoequipo`.`estado` AS `estado`
+FROM `equipo`
+JOIN `computadoradeescritorio` ON `computadoradeescritorio`.`id_computadoraDeEscritorio` = `equipo`.`id_equipo`
+JOIN `unidad_organica` ON `unidad_organica`.`id_unidadOrganica` = `equipo`.`id_unidadOrganicaEquipo`
+JOIN `estadoequipo` ON `estadoequipo`.`id_estado` = `equipo`.`id_estadoEquipo`
+JOIN `tipo_unidadorganica` ON `tipo_unidadorganica`.`id_tipo` = `unidad_organica`.`id_tipoUnidadOrganica`
+WHERE `tipo_unidadorganica`.`id_tipo` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `equipo`.`id_equipo` AS `id_asignacion`, `computadoradeescritorio`.`codigoPatrimonial` AS `codig_patrimonial`, `unidad_organica`.`nombre` AS `unidad_asignada`, `fecha_asignacion` AS `fecha`, `estadoequipo`.`estado` AS `estado`
+FROM `equipo`
+JOIN `computadoradeescritorio` ON `computadoradeescritorio`.`id_computadoraDeEscritorio` = `equipo`.`id_equipo`
+JOIN `unidad_organica` ON `unidad_organica`.`id_unidadOrganica` = `equipo`.`id_unidadOrganicaEquipo`
+JOIN `estadoequipo` ON `estadoequipo`.`id_estado` = `equipo`.`id_estadoEquipo`
+JOIN `tipo_unidadorganica` ON `tipo_unidadorganica`.`id_tipo` = `unidad_organica`.`id_tipoUnidadOrganica`
+WHERE `tipo_unidadorganica`.`id_tipo` = :tipo_unidadorganica.id_tipo:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\AsignacionEquipoModel.php(30): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\AequipoAdmin.php(12): App\Models\AsignacionEquipoModel->obtenerAsigAdministrativas()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AequipoAdmin->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AequipoAdmin))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-09 21:44:38 --> [Caused by] mysqli_sql_exception: Table 'inventarioequipos.computadoradeescritorio' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `equipo`.`id_equipo` AS `id_asignacion`, `computadoradeescritorio`.`codigoPatrimonial` AS `codig_patrimonial`, `unidad_organica`.`nombre` AS `unidad_asignada`, `fecha_asignacion` AS `fecha`, `estadoequipo`.`estado` AS `estado`
+FROM `equipo`
+JOIN `computadoradeescritorio` ON `computadoradeescritorio`.`id_computadoraDeEscritorio` = `equipo`.`id_equipo`
+JOIN `unidad_organica` ON `unidad_organica`.`id_unidadOrganica` = `equipo`.`id_unidadOrganicaEquipo`
+JOIN `estadoequipo` ON `estadoequipo`.`id_estado` = `equipo`.`id_estadoEquipo`
+JOIN `tipo_unidadorganica` ON `tipo_unidadorganica`.`id_tipo` = `unidad_organica`.`id_tipoUnidadOrganica`
+WHERE `tipo_unidadorganica`.`id_tipo` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `equipo`.`id_equipo` AS `id_asignacion`, `computadoradeescritorio`.`codigoPatrimonial` AS `codig_patrimonial`, `unidad_organica`.`nombre` AS `unidad_asignada`, `fecha_asignacion` AS `fecha`, `estadoequipo`.`estado` AS `estado`
+FROM `equipo`
+JOIN `computadoradeescritorio` ON `computadoradeescritorio`.`id_computadoraDeEscritorio` = `equipo`.`id_equipo`
+JOIN `unidad_organica` ON `unidad_organica`.`id_unidadOrganica` = `equipo`.`id_unidadOrganicaEquipo`
+JOIN `estadoequipo` ON `estadoequipo`.`id_estado` = `equipo`.`id_estadoEquipo`
+JOIN `tipo_unidadorganica` ON `tipo_unidadorganica`.`id_tipo` = `unidad_organica`.`id_tipoUnidadOrganica`
+WHERE `tipo_unidadorganica`.`id_tipo` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `equipo`.`id_equipo` AS `id_asignacion`, `computadoradeescritorio`.`codigoPatrimonial` AS `codig_patrimonial`, `unidad_organica`.`nombre` AS `unidad_asignada`, `fecha_asignacion` AS `fecha`, `estadoequipo`.`estado` AS `estado`
+FROM `equipo`
+JOIN `computadoradeescritorio` ON `computadoradeescritorio`.`id_computadoraDeEscritorio` = `equipo`.`id_equipo`
+JOIN `unidad_organica` ON `unidad_organica`.`id_unidadOrganica` = `equipo`.`id_unidadOrganicaEquipo`
+JOIN `estadoequipo` ON `estadoequipo`.`id_estado` = `equipo`.`id_estadoEquipo`
+JOIN `tipo_unidadorganica` ON `tipo_unidadorganica`.`id_tipo` = `unidad_organica`.`id_tipoUnidadOrganica`
+WHERE `tipo_unidadorganica`.`id_tipo` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `equipo`.`id_equipo` AS `id_asignacion`, `computadoradeescritorio`.`codigoPatrimonial` AS `codig_patrimonial`, `unidad_organica`.`nombre` AS `unidad_asignada`, `fecha_asignacion` AS `fecha`, `estadoequipo`.`estado` AS `estado`
+FROM `equipo`
+JOIN `computadoradeescritorio` ON `computadoradeescritorio`.`id_computadoraDeEscritorio` = `equipo`.`id_equipo`
+JOIN `unidad_organica` ON `unidad_organica`.`id_unidadOrganica` = `equipo`.`id_unidadOrganicaEquipo`
+JOIN `estadoequipo` ON `estadoequipo`.`id_estado` = `equipo`.`id_estadoEquipo`
+JOIN `tipo_unidadorganica` ON `tipo_unidadorganica`.`id_tipo` = `unidad_organica`.`id_tipoUnidadOrganica`
+WHERE `tipo_unidadorganica`.`id_tipo` = :tipo_unidadorganica.id_tipo:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\AsignacionEquipoModel.php(30): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AequipoAdmin.php(12): App\Models\AsignacionEquipoModel->obtenerAsigAdministrativas()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AequipoAdmin->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AequipoAdmin))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+ERROR - 2025-09-09 21:51:34 --> mysqli_sql_exception: Not unique table/alias: 'equipo' in C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `equipo`...', 0)
+#1 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `equipo`...')
+#2 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `equipo`...')
+#3 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `equipo`...', Array, false)
+#4 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sistemainventario\app\Models\AsignacionEquipoModel.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sistemainventario\app\Controllers\AequipoAdmin.php(12): App\Models\AsignacionEquipoModel->obtenerAsigAdministrativas()
+#8 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\AequipoAdmin->index()
+#9 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AequipoAdmin))
+#10 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\sistemainventario\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-09-09 21:51:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'equipo'
+[Method: GET, Route: AequiAdminis]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `equipo`.`id_equipo` AS `id_asignacion`, `equipo`.`codigoPatrimonial` AS `codig_patrimonial`, `unidad_organica`.`nombre` AS `unidad_asignada`, `fecha_asignacion` AS `fecha`, `estadoequipo`.`estado` AS `estado`
+FROM `equipo`
+JOIN `equipo` ON `equipo`.`id_equipo` = `asignacion_equipo`.`id_equipo`
+JOIN `unidad_organica` ON `unidad_organica`.`id_unidad_organica` = `asignacion_equipo`.`id_unidad_organica`
+WHERE `tipo_unidad_organica`.`id_tipo_unidad` = :tipo_unidad_organica.id_tipo_unidad:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AsignacionEquipoModel.php(28): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\AequipoAdmin.php(12): App\Models\AsignacionEquipoModel->obtenerAsigAdministrativas()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AequipoAdmin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AequipoAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-09 21:51:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'equipo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `equipo`.`id_equipo` AS `id_asignacion`, `equipo`.`codigoPatrimonial` AS `codig_patrimonial`, `unidad_organica`.`nombre` AS `unidad_asignada`, `fecha_asignacion` AS `fecha`, `estadoequipo`.`estado` AS `estado`
+FROM `equipo`
+JOIN `equipo` ON `equipo`.`id_equipo` = `asignacion_equipo`.`id_equipo`
+JOIN `unidad_organica` ON `unidad_organica`.`id_unidad_organica` = `asignacion_equipo`.`id_unidad_organica`
+WHERE `tipo_unidad_organica`.`id_tipo_unidad` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `equipo`.`id_equipo` AS `id_asignacion`, `equipo`.`codigoPatrimonial` AS `codig_patrimonial`, `unidad_organica`.`nombre` AS `unidad_asignada`, `fecha_asignacion` AS `fecha`, `estadoequipo`.`estado` AS `estado`
+FROM `equipo`
+JOIN `equipo` ON `equipo`.`id_equipo` = `asignacion_equipo`.`id_equipo`
+JOIN `unidad_organica` ON `unidad_organica`.`id_unidad_organica` = `asignacion_equipo`.`id_unidad_organica`
+WHERE `tipo_unidad_organica`.`id_tipo_unidad` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `equipo`.`id_equipo` AS `id_asignacion`, `equipo`.`codigoPatrimonial` AS `codig_patrimonial`, `unidad_organica`.`nombre` AS `unidad_asignada`, `fecha_asignacion` AS `fecha`, `estadoequipo`.`estado` AS `estado`
+FROM `equipo`
+JOIN `equipo` ON `equipo`.`id_equipo` = `asignacion_equipo`.`id_equipo`
+JOIN `unidad_organica` ON `unidad_organica`.`id_unidad_organica` = `asignacion_equipo`.`id_unidad_organica`
+WHERE `tipo_unidad_organica`.`id_tipo_unidad` = :tipo_unidad_organica.id_tipo_unidad:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\AsignacionEquipoModel.php(28): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\AequipoAdmin.php(12): App\Models\AsignacionEquipoModel->obtenerAsigAdministrativas()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AequipoAdmin->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AequipoAdmin))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-09 21:51:34 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'equipo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `equipo`.`id_equipo` AS `id_asignacion`, `equipo`.`codigoPatrimonial` AS `codig_patrimonial`, `unidad_organica`.`nombre` AS `unidad_asignada`, `fecha_asignacion` AS `fecha`, `estadoequipo`.`estado` AS `estado`
+FROM `equipo`
+JOIN `equipo` ON `equipo`.`id_equipo` = `asignacion_equipo`.`id_equipo`
+JOIN `unidad_organica` ON `unidad_organica`.`id_unidad_organica` = `asignacion_equipo`.`id_unidad_organica`
+WHERE `tipo_unidad_organica`.`id_tipo_unidad` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `equipo`.`id_equipo` AS `id_asignacion`, `equipo`.`codigoPatrimonial` AS `codig_patrimonial`, `unidad_organica`.`nombre` AS `unidad_asignada`, `fecha_asignacion` AS `fecha`, `estadoequipo`.`estado` AS `estado`
+FROM `equipo`
+JOIN `equipo` ON `equipo`.`id_equipo` = `asignacion_equipo`.`id_equipo`
+JOIN `unidad_organica` ON `unidad_organica`.`id_unidad_organica` = `asignacion_equipo`.`id_unidad_organica`
+WHERE `tipo_unidad_organica`.`id_tipo_unidad` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `equipo`.`id_equipo` AS `id_asignacion`, `equipo`.`codigoPatrimonial` AS `codig_patrimonial`, `unidad_organica`.`nombre` AS `unidad_asignada`, `fecha_asignacion` AS `fecha`, `estadoequipo`.`estado` AS `estado`
+FROM `equipo`
+JOIN `equipo` ON `equipo`.`id_equipo` = `asignacion_equipo`.`id_equipo`
+JOIN `unidad_organica` ON `unidad_organica`.`id_unidad_organica` = `asignacion_equipo`.`id_unidad_organica`
+WHERE `tipo_unidad_organica`.`id_tipo_unidad` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `equipo`.`id_equipo` AS `id_asignacion`, `equipo`.`codigoPatrimonial` AS `codig_patrimonial`, `unidad_organica`.`nombre` AS `unidad_asignada`, `fecha_asignacion` AS `fecha`, `estadoequipo`.`estado` AS `estado`
+FROM `equipo`
+JOIN `equipo` ON `equipo`.`id_equipo` = `asignacion_equipo`.`id_equipo`
+JOIN `unidad_organica` ON `unidad_organica`.`id_unidad_organica` = `asignacion_equipo`.`id_unidad_organica`
+WHERE `tipo_unidad_organica`.`id_tipo_unidad` = :tipo_unidad_organica.id_tipo_unidad:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\AsignacionEquipoModel.php(28): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AequipoAdmin.php(12): App\Models\AsignacionEquipoModel->obtenerAsigAdministrativas()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AequipoAdmin->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AequipoAdmin))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')

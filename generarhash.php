@@ -1,2 +1,5 @@
 <?php
-echo password_verify('123juan', '$2y$10$c3Eqbls./O.hmKghHUieB.RS8Amd4Ju/iSdbf8nr8RvoVhArQl3Sy');
+$contraseña = "321dylan";
+$hash_contraseña = password_hash($contraseña, PASSWORD_DEFAULT);
+echo "Hash de contraseña segura: ". $hash_contraseña;
+?>

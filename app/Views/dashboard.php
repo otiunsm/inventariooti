@@ -7,6 +7,7 @@
     <title>Sistema de Inventario - Universidad</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         .sidebar {
@@ -65,64 +66,150 @@
 
     <!-- Main Content -->
     <div class="flex">
+        
         <!-- Sidebar -->
-        <div class="sidebar fixed h-full w-64 bg-white shadow-lg z-10">
-            <div class="px-4 py-6">
-                <div class="flex justify-between items-center mb-8">
-                    <div class="text-center">
-                        <img src="<?= base_url('assets/images/oti.jpg') ?>" alt="OFICINA TECNOLOGÍAS DE LA INFORMACIÓN" class="h-20 mx-auto">
-                        <h2 class="text-xl font-semibold mt-4">OFICINA DE TECNOLOGÍAS DE LA INFORMACIÓN</h2>
-                    </div>
-                    <button id="sidebar-toggle" class="toggle-btn text-gray-500 hover:text-blue-700 focus:outline-none">
-                        <i class="fas fa-chevron-left"></i>
-                    </button>
+        <div class="sidebar fixed h-full w-64 bg-whitle shadow-lg z-10 overflow-y-auto px-4 py-6">
+
+            <!-- Logo y título -->
+            <div class="flex justify-between items-center mb-8">
+                <div class="text-center">
+                    <img src="<?= base_url('assets/images/oti.jpg') ?>" alt="OTI" class="h-20 mx-auto">
+                    <h2 class="text-xl font-semibold mt-4">OFICINA DE TECNOLOGÍAS DE LA INFORMACIÓN</h2>
                 </div>
-                <ul class="space-y-2">
-                    <li>
-                        <a href="<?= base_url('dashboard') ?>"  
-                            class="flex items-center px-4 py-3 rounded-lg <?= (uri_string() == 'dashboard') ? 'text-blue-800 bg-blue-100' : 'text-gray-600 hover:bg-blue-50' ?>">
-                            <i class="fas fa-tachometer-alt mr-3"></i>
-                            <span>Dashboard</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="<?= base_url('equipos') ?>" 
-                        class="flex items-center px-4 py-3 rounded-lg <?= (uri_string() == 'equipos') ? 'text-blue-800 bg-blue-100' : 'text-gray-600 hover:bg-blue-50' ?>">
-                            <i class="fas fa-laptop mr-3"></i>
-                            <span>Equipos</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="flex items-center px-4 py-3 text-gray-600 hover:bg-blue-50 rounded-lg">
-                            <i class="fas fa-users mr-3"></i>
-                            <span>Unidades Organicas</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="flex items-center px-4 py-3 text-gray-600 hover:bg-blue-50 rounded-lg">
-                            <i class="fas fa-building mr-3"></i>
-                            <span>Usuarios</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="flex items-center px-4 py-3 text-gray-600 hover:bg-blue-50 rounded-lg">
-                            <i class="fas fa-file-alt mr-3"></i>
-                            <span>Reportes</span>
-                        </a>
-                    </li>
-                </ul>
+                <button id="sidebar-toggle" class="toggle-btn text-gray-500 hover:text-blue-700 focus:outline-none">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
             </div>
-            <div class="px-4 py-6 border-t border-gray-200 absolute bottom-0 w-full">
-                <a href="#" class="flex items-center px-4 py-2 text-gray-600 hover:bg-blue-50 rounded-lg">
-                    <i class="fas fa-cog mr-3"></i>
-                    <span>Configuración</span>
-                </a>
-                <a href="#" class="flex items-center px-4 py-2 text-gray-600 hover:bg-blue-50 rounded-lg">
-                    <i class="fas fa-sign-out-alt mr-3"></i>
-                    <span>Cerrar sesion</span>
-                </a>
-            </div>
+
+            <!-- Menú principal -->
+            <ul class="space-y-2">
+
+                <!-- Dashboard -->
+                <li>
+                    <a href="<?= base_url('dashboard') ?>"  
+                    class="flex items-center px-4 py-3 rounded-lg <?= (uri_string() == 'dashboard') ? 'text-green-800 bg-green-100' : 'text-gray-600 hover:bg-green-50' ?>">
+                        <i class="fas fa-tachometer-alt mr-3"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+
+                <!-- Gestión de equipos -->
+                <li>
+                    <a href="<?= base_url('GestionEquipos') ?>" 
+                    class="flex items-center px-4 py-3 rounded-lg <?= (uri_string() == 'GestionEquipos') ? 'text-green-800 bg-green-100' : 'text-gray-600 hover:bg-green-50' ?>">
+                        <i class="fas fa-desktop mr-3"></i>
+                        <span>Gestión de Equipos</span>
+                    </a>
+                </li>
+
+                <!-- Asignaciones -->
+                <li x-data="{ open: <?= (in_array(uri_string(), ['AequiAdminis', 'AequiAcademi'])) ? 'true' : 'false' ?> }">
+                    <button @click="open = !open"
+                            class="flex items-center w-full px-4 py-3 rounded-lg text-gray-600 hover:bg-green-50">
+                        <i class="fas fa-random mr-3"></i>
+                        <span class="flex-1 text-left">Asignaciones</span>
+                        <i :class="open ? 'fas fa-chevron-up' : 'fas fa-chevron-down'" class="ml-2"></i>
+                    </button>
+                    <template x-if="open">
+                        <ul class="pl-10 mt-1 space-y-1">
+                            <li>
+                                <a href="<?= base_url('AequiAdminis') ?>" 
+                                class="block px-4 py-2 rounded-lg <?= (uri_string() == 'AequiAdminis') ? 'text-green-800 bg-green-100' : 'text-gray-600 hover:bg-green-50' ?>">
+                                    <i class="fas fa-briefcase mr-2"></i> Unidad Administrativa
+                                </a>
+                            </li>
+                            <li>
+                                <a href="<?= base_url('AequiAcademi') ?>" 
+                                class="block px-4 py-2 rounded-lg <?= (uri_string() == 'AequiAcademi') ? 'text-green-800 bg-green-100' : 'text-gray-600 hover:bg-green-50' ?>">
+                                    <i class="fas fa-university mr-2"></i> Unidad Académica
+                                </a>
+                            </li>
+                        </ul>
+                    </template>
+                </li>
+
+                <!-- Historial -->
+                <li>
+                    <a href="<?= base_url('HistorialMovimiento') ?>" 
+                    class="flex items-center px-4 py-3 rounded-lg <?= (uri_string() == 'HistorialMovimiento') ? 'text-green-800 bg-green-100' : 'text-gray-600 hover:bg-green-50' ?>">
+                        <i class="fas fa-history mr-3"></i>
+                        <span>Historial de Movimientos</span>
+                    </a>
+                </li>
+
+                <!-- Catálogos -->
+                <li x-data="{ open: false }">
+                    <button @click="open = !open"
+                            class="flex items-center w-full px-4 py-3 rounded-lg text-gray-600 hover:bg-green-50">
+                        <i class="fas fa-database mr-3"></i>
+                        <span class="flex-1 text-left">Catálogos</span>
+                        <i :class="open ? 'fas fa-chevron-up' : 'fas fa-chevron-down'" class="ml-2"></i>
+                    </button>
+                    <template x-if="open">
+                        <ul class="pl-10 mt-1 space-y-1">
+                            <li><a href="<?= base_url('Catalogo/MarcaEquipos') ?>" class="block px-4 py-2 text-gray-600 hover:bg-green-50 rounded-lg"><i class="fas fa-tag mr-2"></i> Marcas</a></li>
+                            <li><a href="<?= base_url('Catalogo/ModeloEquipos') ?>" class="block px-4 py-2 text-gray-600 hover:bg-green-50 rounded-lg"><i class="fas fa-cube mr-2"></i> Modelos</a></li>
+                            <li><a href="<?= base_url('Catalogo/TipoEquipos') ?>" class="block px-4 py-2 text-gray-600 hover:bg-green-50 rounded-lg"><i class="fas fa-laptop mr-2"></i> Tipos de Equipo</a></li>
+                            <li><a href="<?= base_url('Catalogo/AtributoEquipos') ?>" class="block px-4 py-2 text-gray-600 hover:bg-green-50 rounded-lg"><i class="fas fa-list mr-2"></i>Caracteristicas</a></li>
+                            <li><a href="<?= base_url('Catalogo/EstadoEquipos') ?>" class="block px-4 py-2 text-gray-600 hover:bg-green-50 rounded-lg"><i class="fas fa-clipboard-check mr-2"></i> Estados</a></li>
+                            <!-- Asignaciones -->
+                            <li x-data="{ open: <?= (in_array(uri_string(), ['Catalogo/UnidadesOrganicasAdmin', 'Catalogo/UnidadesOrganicasAcadem'])) ? 'true' : 'false' ?> }">
+                                <button @click="open = !open"
+                                        class="flex items-center w-full px-4 py-3 rounded-lg text-gray-600 hover:bg-green-50">
+                                    <i class="fas fa-random mr-3"></i>
+                                    <span class="flex-1 text-left">Unidades Organicas</span>
+                                    <i :class="open ? 'fas fa-chevron-up' : 'fas fa-chevron-down'" class="ml-2"></i>
+                                </button>
+                                <template x-if="open">
+                                    <ul class="pl-10 mt-1 space-y-1">
+                                        <li>
+                                            <a href="<?= base_url('Catalogo/UnidadesOrganicasAdmin') ?>" 
+                                            class="block px-4 py-2 rounded-lg <?= (uri_string() == 'Catalogo/UnidadesOrganicasAdmin') ? 'text-green-800 bg-green-100' : 'text-gray-600 hover:bg-green-50' ?>">
+                                                <i class="fas fa-briefcase mr-2"></i> Tipo Unidad Administrativa
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="<?= base_url('Catalogo/UnidadesOrganicasAcadem') ?>" 
+                                            class="block px-4 py-2 rounded-lg <?= (uri_string() == 'Catalogo/UnidadesOrganicasAcadem') ? 'text-green-800 bg-green-100' : 'text-gray-600 hover:bg-green-50' ?>">
+                                                <i class="fas fa-university mr-2"></i> Tipo Unidad Académica
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </template>
+                            </li>
+                            <li><a href="<?= base_url('Catalogo/Sedes') ?>" class="block px-4 py-2 text-gray-600 hover:bg-green-50 rounded-lg"><i class="fas fa-map-marker-alt mr-2"></i> Sedes</a></li>
+                        </ul>
+                    </template>
+                </li>
+
+                <!-- Seguridad -->
+                <li x-data="{ open: false }">
+                    <button @click="open = !open"
+                            class="flex items-center w-full px-4 py-3 rounded-lg text-gray-600 hover:bg-green-50">
+                        <i class="fas fa-user-shield mr-3"></i>
+                        <span class="flex-1 text-left">Seguridad</span>
+                        <i :class="open ? 'fas fa-chevron-up' : 'fas fa-chevron-down'" class="ml-2"></i>
+                    </button>
+                    <template x-if="open">
+                        <ul class="pl-10 mt-1 space-y-1">
+                            <li><a href="<?= base_url('Usuarios') ?>" class="block px-4 py-2 text-gray-600 hover:bg-green-50 rounded-lg"><i class="fas fa-users mr-2"></i> Usuarios</a></li>
+                            <li><a href="<?= base_url('Perfiles') ?>" class="block px-4 py-2 text-gray-600 hover:bg-green-50 rounded-lg"><i class="fas fa-id-badge mr-2"></i> Perfiles/Roles</a></li>
+                            <li><a href="<?= base_url('Permisos') ?>" class="block px-4 py-2 text-gray-600 hover:bg-green-50 rounded-lg"><i class="fas fa-key mr-2"></i> Permisos</a></li>
+                        </ul>
+                    </template>
+                </li>
+
+                <!-- Reportes -->
+                <li>
+                    <a href="<?= base_url('Reportes') ?>" 
+                    class="flex items-center px-4 py-3 rounded-lg <?= (uri_string() == 'Reportes') ? 'text-green-800 bg-green-100' : 'text-gray-600 hover:bg-green-50' ?>">
+                        <i class="fas fa-file-alt mr-3"></i>
+                        <span>Reportes</span>
+                    </a>
+                </li>
+            </ul>
         </div>
+
         <!-- Dashboard Content -->
         <div class="content ml-64 flex-1 p-6">
             <!-- Toggle Button for collapsed sidebar -->
@@ -130,16 +217,15 @@
                 <i class="fas fa-chevron-right"></i>
             </button>
 
-            <h1 class="text-2xl font-bold text-gray-800 mb-6">Inventario de Equipos</h1>
             <?php
             // Tarjetas de estadisticas dinamicas
 
-            $conexion = new PDO("mysql:host=localhost;dbname=sistemainventario", "root", "");
+            $conexion = new PDO("mysql:host=localhost;dbname=inventarioequipos", "root", "");
 
             $totalequipos = $conexion->query("SELECT COUNT(*) FROM equipo")->fetchColumn();
-            $activos = $conexion->query("SELECT COUNT(*) FROM equipo WHERE id_estadoEquipo = 1")->fetchColumn();
-            $mantenimiento = $conexion->query("SELECT COUNT(*) FROM equipo WHERE id_estadoEquipo = 2")->fetchColumn();
-            $obsoletos = $conexion->query("SELECT COUNT(*) FROM equipo WHERE id_estadoEquipo = 3")->fetchColumn();
+            $activos = $conexion->query("SELECT COUNT(*) FROM equipo WHERE id_estado_equipo = 1")->fetchColumn();
+            $mantenimiento = $conexion->query("SELECT COUNT(*) FROM equipo WHERE id_estado_equipo = 2")->fetchColumn();
+            $obsoletos = $conexion->query("SELECT COUNT(*) FROM equipo WHERE id_estado_equipo = 3")->fetchColumn();
         
             ?>
             <!-- Quick Stats -->
@@ -214,10 +300,10 @@
                         <i class="fas fa-plus-circle text-2xl mb-2"></i>
                         <span>Registrar Equipo</span>
                     </button>
-                    <button class="bg-green-600 hover:bg-green-700 text-white py-3 px-4 rounded-lg flex flex-col items-center">
+                    <a href="<?= base_url('equipos/administrativa') ?>" class="bg-green-600 hover:bg-green-700 text-white py-3 px-4 rounded-lg flex flex-col items-center">
                         <i class="fas fa-exchange-alt text-2xl mb-2"></i>
                         <span>Asignar Equipo</span>
-                    </button>
+                    </a>
                     <button class="bg-yellow-500 hover:bg-yellow-600 text-white py-3 px-4 rounded-lg flex flex-col items-center">
                         <i class="fas fa-tools text-2xl mb-2"></i>
                         <span>Reportar Mantenimiento</span>
@@ -280,7 +366,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    
 
     <script>
         // Toggle sidebar on mobile
@@ -291,40 +377,45 @@
         // Toggle sidebar collapse/expand
         const sidebar = document.querySelector('.sidebar');
         const content = document.querySelector('.content');
-        const toggleBtn = document.getElementById('sidebar-toggle');
-        const collapsedToggleBtn = document.getElementById('sidebar-collapsed-toggle');
+        const toggleBtn = document.getElementById('sidebar-toggle'); // Botón dentro
+        const collapsedToggleBtn = document.getElementById('sidebar-collapsed-toggle'); // Botón fuera
+
         let isCollapsed = false;
 
+        // Colapsar
         toggleBtn.addEventListener('click', function() {
-            isCollapsed = !isCollapsed;
-            
-            // Toggle sidebar
-            sidebar.classList.toggle('collapsed');
-            
-            // Adjust content margin
-            content.classList.toggle('ml-64');
-            content.classList.toggle('expanded');
-            
-            // Toggle button icons
-            toggleBtn.classList.toggle('collapsed');
-            collapsedToggleBtn.classList.toggle('hidden');
+            isCollapsed = true;
+
+            // Ocultar sidebar
+            sidebar.classList.add('collapsed');
+
+            // Ajustar contenido
+            content.classList.remove('ml-64');
+            content.classList.add('expanded');
+
+            // Ocultar botón interno y mostrar externo
+            toggleBtn.classList.add('hidden');
+            collapsedToggleBtn.classList.remove('hidden');
         });
 
+        // Expandir
         collapsedToggleBtn.addEventListener('click', function() {
             isCollapsed = false;
-            
-            // Show sidebar
+
+            // Mostrar sidebar
             sidebar.classList.remove('collapsed');
-            
-            // Adjust content margin
+
+            // Ajustar contenido
             content.classList.add('ml-64');
             content.classList.remove('expanded');
-            
-            // Toggle button visibility
-            toggleBtn.classList.remove('collapsed');
+
+            // Mostrar botón interno y ocultar externo
+            toggleBtn.classList.remove('hidden');
             collapsedToggleBtn.classList.add('hidden');
         });
 
+
+        
         // Faculty Distribution Chart
         const facultyCtx = document.getElementById('facultyChart').getContext('2d');
         const facultyChart = new Chart(facultyCtx, {

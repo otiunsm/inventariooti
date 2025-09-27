@@ -7,29 +7,53 @@ class EquipoModel extends Model
 {
     protected $table = 'equipo';
     protected $primaryKey = 'id_equipo';
-
     protected $allowedFields = [
-        'id_tipoEquipo',
-        'id_estadoEquipo',
-        'id_modeloEquipo',
-        'id_unidadOrganicaEquipo'
+        'id_tipo_equipo',
+        'codig_patrimonial',
+        'num_serie',
+        'id_modelo_equipo',
+        'id_estado_equipo'
     ];
 
-    public function obtenerJoin()
+    // ✅ Listar equipos con JOINs
+    public function obtenerEquipos()
     {
-        return $this->db->table('equipo')
+        return $this->db->table($this->table . ' e')
             ->select('
-                equipo.id_equipo,
-                tipo_equipo.nombre            AS tipo,
-                estadoequipo.estado           AS estado,
-                modelo.modelo                 AS modelo,
-                unidad_organica.nombre        AS unidad
+                e.id_equipo AS Id,
+                e.codig_patrimonial AS codigoPatrimonial,
+                e.num_serie AS numeroSerie,
+                te.tipo_equipo AS tipoEquipo,
+                mae.marca_equipo AS marcaEquipo,
+                me.modelo_equipo AS modeloEquipo,
+                es.estado_equipo AS estadoEquipo,
+                e.id_tipo_equipo,
+                e.id_modelo_equipo,
+                e.id_estado_equipo
             ')
-            ->join('tipo_equipo',      'tipo_equipo.id_tipo = equipo.id_tipoEquipo')
-            ->join('estadoequipo',     'estadoequipo.id_estado = equipo.id_estadoEquipo')
-            ->join('modelo',           'modelo.id_modelo = equipo.id_modeloEquipo')
-            ->join('unidad_organica',  'unidad_organica.id_unidadOrganica = equipo.id_unidadOrganicaEquipo')
+            ->join('tipo_equipo te', 'te.id_tipo_equipo = e.id_tipo_equipo')
+            ->join('modelo_equipo me', 'me.id_modelo_equipo = e.id_modelo_equipo')
+            ->join('marca_equipo mae', 'mae.id_marca_equipo = me.id_marca_equipo')
+            ->join('estado_equipo es', 'es.id_estado_equipo = e.id_estado_equipo')
+            ->orderBy('e.id_equipo', 'DESC')
             ->get()
             ->getResultArray();
     }
+
+    // ✅ Obtener un solo equipo
+    public function obtenerEquipoPorId($id)
+    {
+        return $this->where('id_equipo', $id)->first();
+    }
+
+    public function obtenerConTipo($id_equipo)
+    {
+        return $this->db->table($this->table . ' e')
+        ->select('e.*, te.tipo_equipo')
+        ->join('tipo_equipo te', 'te.id_tipo_equipo = e.id_tipo_equipo')
+        ->where('e.id_equipo', $id_equipo)
+        ->get()
+        ->getRowArray();
+    }
 }
+

@@ -1,0 +1,1137 @@
+DEBUG - 2025-09-12 03:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-12 03:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-12 03:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-12 03:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-12 03:58:49 --> ParseError: syntax error, unexpected token "|", expecting ";" or "{"
+[Method: GET, Route: AequiAdminis]
+in APPPATH\Controllers\AequipoAdmin.php on line 48.
+ 1 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sistemainventario\\vendor\\composer/../../app\\Controllers\\AequipoAdmin.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\AequipoAdmin')
+ 3 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\AequipoAdmin', true)
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+DEBUG - 2025-09-12 03:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-12 04:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-12 04:26:19 --> ErrorException: Undefined array key "fecha"
+[Method: GET, Route: AequiAdminis/editar/14]
+in APPPATH\Views\AequiAdministrativos.php on line 161.
+ 1 APPPATH\Views\AequiAdministrativos.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha"', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\AequiAdministrativos.php', 161)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\AequiAdministrativos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('AequiAdministrativos', [], true)
+ 5 APPPATH\Controllers\AequipoAdmin.php(63): view('AequiAdministrativos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AequipoAdmin->editar('14')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AequipoAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 04:27:08 --> ErrorException: Undefined array key "fecha"
+[Method: GET, Route: AequiAdminis/editar/14]
+in APPPATH\Views\AequiAdministrativos.php on line 161.
+ 1 APPPATH\Views\AequiAdministrativos.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha"', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\AequiAdministrativos.php', 161)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\AequiAdministrativos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('AequiAdministrativos', [], true)
+ 5 APPPATH\Controllers\AequipoAdmin.php(63): view('AequiAdministrativos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AequipoAdmin->editar('14')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AequipoAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 04:28:18 --> ErrorException: Undefined array key "estado"
+[Method: GET, Route: AequiAdminis/editar/14]
+in APPPATH\Views\AequiAdministrativos.php on line 167.
+ 1 APPPATH\Views\AequiAdministrativos.php(167): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "estado"', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\AequiAdministrativos.php', 167)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\AequiAdministrativos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('AequiAdministrativos', [], true)
+ 5 APPPATH\Controllers\AequipoAdmin.php(63): view('AequiAdministrativos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AequipoAdmin->editar('14')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AequipoAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 04:34:19 --> ErrorException: Undefined array key "fecha"
+[Method: GET, Route: AequiAdminis/editar/9]
+in APPPATH\Views\AequiAdministrativos.php on line 161.
+ 1 APPPATH\Views\AequiAdministrativos.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha"', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\AequiAdministrativos.php', 161)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\AequiAdministrativos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('AequiAdministrativos', [], true)
+ 5 APPPATH\Controllers\AequipoAdmin.php(63): view('AequiAdministrativos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AequipoAdmin->editar('9')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AequipoAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+DEBUG - 2025-09-12 05:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-12 05:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-12 12:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-12 12:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-12 12:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-12 12:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-12 13:21:27 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: AequiAdminis]
+in APPPATH\Views\AequiAdministrativos.php on line 108.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('AequiAdministrativos', [], true)
+ 3 APPPATH\Controllers\AequipoAdmin.php(22): view('AequiAdministrativos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AequipoAdmin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AequipoAdmin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+DEBUG - 2025-09-12 13:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-12 13:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-12 13:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-12 13:25:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-12 13:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-12 13:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-12 13:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-12 13:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-12 13:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-12 13:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-12 13:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-12 13:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-12 13:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-12 16:04:46 --> ErrorException: Undefined variable $equipos
+[Method: GET, Route: HistorialMovimiento]
+in APPPATH\Views\HistorialMovimiento.php on line 11.
+ 1 APPPATH\Views\HistorialMovimiento.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $equipos', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\HistorialMovimiento.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\HistorialMovimiento.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('HistorialMovimiento', [], true)
+ 5 APPPATH\Controllers\HistorialMovimientoController.php(13): view('HistorialMovimiento')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 16:21:29 --> Error: Class "codeigniter\Model" not found
+[Method: GET, Route: HistorialMovimiento]
+in APPPATH\Models\HistorialMovimientoModel.php on line 7.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include()
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sistemainventario\\vendor\\composer/../../app\\Models\\HistorialMovimientoModel.php')
+ 3 APPPATH\Controllers\HistorialMovimientoController.php(13): Composer\Autoload\ClassLoader->loadClass('App\\Models\\HistorialMovimientoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 16:23:35 --> Error: Class "codeigniter\Model" not found
+[Method: GET, Route: HistorialMovimiento]
+in APPPATH\Models\HistorialMovimientoModel.php on line 7.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include()
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sistemainventario\\vendor\\composer/../../app\\Models\\HistorialMovimientoModel.php')
+ 3 APPPATH\Controllers\HistorialMovimientoController.php(13): Composer\Autoload\ClassLoader->loadClass('App\\Models\\HistorialMovimientoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 16:24:39 --> Error: Class "codeigniter\Model" not found
+[Method: GET, Route: HistorialMovimiento]
+in APPPATH\Models\HistorialMovimientoModel.php on line 7.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include()
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sistemainventario\\vendor\\composer/../../app\\Models\\HistorialMovimientoModel.php')
+ 3 APPPATH\Controllers\HistorialMovimientoController.php(13): Composer\Autoload\ClassLoader->loadClass('App\\Models\\HistorialMovimientoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+ERROR - 2025-09-12 16:26:15 --> mysqli_sql_exception: Unknown column 'ae.nombre_equipo' in 'field list' in C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `hm`.`id...', 0)
+#1 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hm`.`id...')
+#2 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hm`.`id...')
+#3 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `hm`.`id...', Array, false)
+#4 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sistemainventario\app\Models\HistorialMovimientoModel.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sistemainventario\app\Controllers\HistorialMovimientoController.php(14): App\Models\HistorialMovimientoModel->obtenerHistorial()
+#8 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+#9 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+#10 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\sistemainventario\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-09-12 16:26:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ae.nombre_equipo' in 'field list'
+[Method: GET, Route: HistorialMovimiento]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `hm`.`id_historial_movimiento`, `ae`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM (`historial_movimiento`, `historial_movimiento` `hm`)
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\HistorialMovimientoModel.php(30): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\HistorialMovimientoController.php(14): App\Models\HistorialMovimientoModel->obtenerHistorial()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 16:26:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ae.nombre_equipo' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hm`.`id_historial_movimiento`, `ae`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM (`historial_movimiento`, `historial_movimiento` `hm`)
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hm`.`id_historial_movimiento`, `ae`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM (`historial_movimiento`, `historial_movimiento` `hm`)
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `hm`.`id_historial_movimiento`, `ae`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM (`historial_movimiento`, `historial_movimiento` `hm`)
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\HistorialMovimientoModel.php(30): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\HistorialMovimientoController.php(14): App\Models\HistorialMovimientoModel->obtenerHistorial()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 16:26:15 --> [Caused by] mysqli_sql_exception: Unknown column 'ae.nombre_equipo' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `hm`.`id_historial_movimiento`, `ae`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM (`historial_movimiento`, `historial_movimiento` `hm`)
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hm`.`id_historial_movimiento`, `ae`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM (`historial_movimiento`, `historial_movimiento` `hm`)
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hm`.`id_historial_movimiento`, `ae`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM (`historial_movimiento`, `historial_movimiento` `hm`)
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `hm`.`id_historial_movimiento`, `ae`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM (`historial_movimiento`, `historial_movimiento` `hm`)
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\HistorialMovimientoModel.php(30): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\HistorialMovimientoController.php(14): App\Models\HistorialMovimientoModel->obtenerHistorial()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+ERROR - 2025-09-12 16:28:56 --> mysqli_sql_exception: Unknown column 'uo.nombre_unidad' in 'field list' in C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `hm`.`id...', 0)
+#1 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hm`.`id...')
+#2 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hm`.`id...')
+#3 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `hm`.`id...', Array, false)
+#4 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sistemainventario\app\Models\HistorialMovimientoModel.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sistemainventario\app\Controllers\HistorialMovimientoController.php(14): App\Models\HistorialMovimientoModel->obtenerHistorial()
+#8 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+#9 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+#10 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\sistemainventario\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-09-12 16:28:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'uo.nombre_unidad' in 'field list'
+[Method: GET, Route: HistorialMovimiento]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `hm`.`id_historial_movimiento`, `ae`.`id_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM (`historial_movimiento`, `historial_movimiento` `hm`)
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\HistorialMovimientoModel.php(30): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\HistorialMovimientoController.php(14): App\Models\HistorialMovimientoModel->obtenerHistorial()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 16:28:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'uo.nombre_unidad' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hm`.`id_historial_movimiento`, `ae`.`id_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM (`historial_movimiento`, `historial_movimiento` `hm`)
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hm`.`id_historial_movimiento`, `ae`.`id_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM (`historial_movimiento`, `historial_movimiento` `hm`)
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `hm`.`id_historial_movimiento`, `ae`.`id_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM (`historial_movimiento`, `historial_movimiento` `hm`)
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\HistorialMovimientoModel.php(30): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\HistorialMovimientoController.php(14): App\Models\HistorialMovimientoModel->obtenerHistorial()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 16:28:56 --> [Caused by] mysqli_sql_exception: Unknown column 'uo.nombre_unidad' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `hm`.`id_historial_movimiento`, `ae`.`id_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM (`historial_movimiento`, `historial_movimiento` `hm`)
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hm`.`id_historial_movimiento`, `ae`.`id_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM (`historial_movimiento`, `historial_movimiento` `hm`)
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hm`.`id_historial_movimiento`, `ae`.`id_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM (`historial_movimiento`, `historial_movimiento` `hm`)
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `hm`.`id_historial_movimiento`, `ae`.`id_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM (`historial_movimiento`, `historial_movimiento` `hm`)
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\HistorialMovimientoModel.php(30): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\HistorialMovimientoController.php(14): App\Models\HistorialMovimientoModel->obtenerHistorial()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 16:30:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "historial_movimientos.php"
+[Method: GET, Route: HistorialMovimiento]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('historial_movimientos.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('historial_movimientos', [], true)
+ 3 APPPATH\Controllers\HistorialMovimientoController.php(26): view('historial_movimientos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 16:31:25 --> ErrorException: Undefined array key "nombre_equipo"
+[Method: GET, Route: HistorialMovimiento]
+in APPPATH\Views\HistorialMovimiento.php on line 12.
+ 1 APPPATH\Views\HistorialMovimiento.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_equipo"', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\HistorialMovimiento.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\HistorialMovimiento.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('HistorialMovimiento', [], true)
+ 5 APPPATH\Controllers\HistorialMovimientoController.php(26): view('HistorialMovimiento', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 16:32:23 --> ErrorException: Undefined array key "equipo"
+[Method: GET, Route: HistorialMovimiento]
+in APPPATH\Views\HistorialMovimiento.php on line 12.
+ 1 APPPATH\Views\HistorialMovimiento.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "equipo"', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\HistorialMovimiento.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\HistorialMovimiento.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('HistorialMovimiento', [], true)
+ 5 APPPATH\Controllers\HistorialMovimientoController.php(26): view('HistorialMovimiento', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+ERROR - 2025-09-12 16:34:10 --> mysqli_sql_exception: Unknown column 'e.nombre_equipo' in 'field list' in C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `hm`.`id...', 0)
+#1 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hm`.`id...')
+#2 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hm`.`id...')
+#3 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `hm`.`id...', Array, false)
+#4 C:\xampp\htdocs\sistemainventario\app\Models\HistorialMovimientoModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemainventario\app\Controllers\HistorialMovimientoController.php(14): App\Models\HistorialMovimientoModel->obtenerHistorial()
+#6 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+#7 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+#8 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\sistemainventario\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-09-12 16:34:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'e.nombre_equipo' in 'field list'
+[Method: GET, Route: HistorialMovimiento]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC', [], false)
+ 2 APPPATH\Models\HistorialMovimientoModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\HistorialMovimientoController.php(14): App\Models\HistorialMovimientoModel->obtenerHistorial()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 16:34:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'e.nombre_equipo' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC', [], false)
+ 4 APPPATH\Models\HistorialMovimientoModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\HistorialMovimientoController.php(14): App\Models\HistorialMovimientoModel->obtenerHistorial()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 16:34:10 --> [Caused by] mysqli_sql_exception: Unknown column 'e.nombre_equipo' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC', [], false)
+ 5 APPPATH\Models\HistorialMovimientoModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\HistorialMovimientoController.php(14): App\Models\HistorialMovimientoModel->obtenerHistorial()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 16:37:35 --> ErrorException: Undefined array key "equipo"
+[Method: GET, Route: HistorialMovimiento]
+in APPPATH\Views\HistorialMovimiento.php on line 12.
+ 1 APPPATH\Views\HistorialMovimiento.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "equipo"', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\HistorialMovimiento.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\HistorialMovimiento.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('HistorialMovimiento', [], true)
+ 5 APPPATH\Controllers\HistorialMovimientoController.php(26): view('HistorialMovimiento', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 16:40:11 --> ErrorException: Undefined array key "equipo"
+[Method: GET, Route: HistorialMovimiento]
+in APPPATH\Views\HistorialMovimiento.php on line 12.
+ 1 APPPATH\Views\HistorialMovimiento.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "equipo"', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\HistorialMovimiento.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\HistorialMovimiento.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('HistorialMovimiento', [], true)
+ 5 APPPATH\Controllers\HistorialMovimientoController.php(26): view('HistorialMovimiento', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 16:40:45 --> ErrorException: Undefined array key "equipo"
+[Method: GET, Route: HistorialMovimiento]
+in APPPATH\Views\HistorialMovimiento.php on line 12.
+ 1 APPPATH\Views\HistorialMovimiento.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "equipo"', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\HistorialMovimiento.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\HistorialMovimiento.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('HistorialMovimiento', [], true)
+ 5 APPPATH\Controllers\HistorialMovimientoController.php(26): view('HistorialMovimiento', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 16:40:48 --> ErrorException: Undefined array key "equipo"
+[Method: GET, Route: HistorialMovimiento]
+in APPPATH\Views\HistorialMovimiento.php on line 12.
+ 1 APPPATH\Views\HistorialMovimiento.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "equipo"', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\HistorialMovimiento.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\HistorialMovimiento.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('HistorialMovimiento', [], true)
+ 5 APPPATH\Controllers\HistorialMovimientoController.php(26): view('HistorialMovimiento', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 16:41:37 --> ErrorException: Undefined array key "equipo"
+[Method: GET, Route: HistorialMovimiento]
+in APPPATH\Views\HistorialMovimiento.php on line 12.
+ 1 APPPATH\Views\HistorialMovimiento.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "equipo"', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\HistorialMovimiento.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\HistorialMovimiento.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('HistorialMovimiento', [], true)
+ 5 APPPATH\Controllers\HistorialMovimientoController.php(26): view('HistorialMovimiento', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+ERROR - 2025-09-12 16:45:52 --> mysqli_sql_exception: Unknown column 'e.nombre_equipo' in 'field list' in C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `hm`.`id...', 0)
+#1 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hm`.`id...')
+#2 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hm`.`id...')
+#3 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `hm`.`id...', Array, false)
+#4 C:\xampp\htdocs\sistemainventario\app\Models\HistorialMovimientoModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemainventario\app\Controllers\HistorialMovimientoController.php(13): App\Models\HistorialMovimientoModel->obtenerHistorial()
+#6 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+#7 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+#8 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\sistemainventario\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-09-12 16:45:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'e.nombre_equipo' in 'field list'
+[Method: GET, Route: HistorialMovimiento]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `s`.`nombre_sede` AS `sede`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `sede` `s` ON `ud`.`id_sede` = `s`.`id_sede`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC', [], false)
+ 2 APPPATH\Models\HistorialMovimientoModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\HistorialMovimientoController.php(13): App\Models\HistorialMovimientoModel->obtenerHistorial()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 16:45:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'e.nombre_equipo' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `s`.`nombre_sede` AS `sede`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `sede` `s` ON `ud`.`id_sede` = `s`.`id_sede`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `s`.`nombre_sede` AS `sede`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `sede` `s` ON `ud`.`id_sede` = `s`.`id_sede`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `s`.`nombre_sede` AS `sede`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `sede` `s` ON `ud`.`id_sede` = `s`.`id_sede`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC', [], false)
+ 4 APPPATH\Models\HistorialMovimientoModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\HistorialMovimientoController.php(13): App\Models\HistorialMovimientoModel->obtenerHistorial()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 16:45:52 --> [Caused by] mysqli_sql_exception: Unknown column 'e.nombre_equipo' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `s`.`nombre_sede` AS `sede`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `sede` `s` ON `ud`.`id_sede` = `s`.`id_sede`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `s`.`nombre_sede` AS `sede`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `sede` `s` ON `ud`.`id_sede` = `s`.`id_sede`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `s`.`nombre_sede` AS `sede`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `sede` `s` ON `ud`.`id_sede` = `s`.`id_sede`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `s`.`nombre_sede` AS `sede`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `sede` `s` ON `ud`.`id_sede` = `s`.`id_sede`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC', [], false)
+ 5 APPPATH\Models\HistorialMovimientoModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\HistorialMovimientoController.php(13): App\Models\HistorialMovimientoModel->obtenerHistorial()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+ERROR - 2025-09-12 16:50:27 --> mysqli_sql_exception: Unknown column 'e.nombre_equipo' in 'field list' in C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `hm`.`id...', 0)
+#1 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hm`.`id...')
+#2 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hm`.`id...')
+#3 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `hm`.`id...', Array, false)
+#4 C:\xampp\htdocs\sistemainventario\app\Models\HistorialMovimientoModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemainventario\app\Controllers\HistorialMovimientoController.php(13): App\Models\HistorialMovimientoModel->obtenerHistorial()
+#6 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+#7 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+#8 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\sistemainventario\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-09-12 16:50:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'e.nombre_equipo' in 'field list'
+[Method: GET, Route: HistorialMovimiento]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `s`.`nombre_sede` AS `sede`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `sede` `s` ON `ud`.`id_sede` = `s`.`id_sede`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC', [], false)
+ 2 APPPATH\Models\HistorialMovimientoModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\HistorialMovimientoController.php(13): App\Models\HistorialMovimientoModel->obtenerHistorial()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 16:50:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'e.nombre_equipo' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `s`.`nombre_sede` AS `sede`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `sede` `s` ON `ud`.`id_sede` = `s`.`id_sede`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `s`.`nombre_sede` AS `sede`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `sede` `s` ON `ud`.`id_sede` = `s`.`id_sede`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `s`.`nombre_sede` AS `sede`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `sede` `s` ON `ud`.`id_sede` = `s`.`id_sede`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC', [], false)
+ 4 APPPATH\Models\HistorialMovimientoModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\HistorialMovimientoController.php(13): App\Models\HistorialMovimientoModel->obtenerHistorial()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 16:50:27 --> [Caused by] mysqli_sql_exception: Unknown column 'e.nombre_equipo' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `s`.`nombre_sede` AS `sede`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `sede` `s` ON `ud`.`id_sede` = `s`.`id_sede`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `s`.`nombre_sede` AS `sede`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `sede` `s` ON `ud`.`id_sede` = `s`.`id_sede`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `s`.`nombre_sede` AS `sede`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `sede` `s` ON `ud`.`id_sede` = `s`.`id_sede`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `s`.`nombre_sede` AS `sede`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `sede` `s` ON `ud`.`id_sede` = `s`.`id_sede`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC', [], false)
+ 5 APPPATH\Models\HistorialMovimientoModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\HistorialMovimientoController.php(13): App\Models\HistorialMovimientoModel->obtenerHistorial()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+ERROR - 2025-09-12 16:51:28 --> mysqli_sql_exception: Unknown column 'e.nombre_equipo' in 'field list' in C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `hm`.`id...', 0)
+#1 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hm`.`id...')
+#2 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hm`.`id...')
+#3 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `hm`.`id...', Array, false)
+#4 C:\xampp\htdocs\sistemainventario\app\Models\HistorialMovimientoModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemainventario\app\Controllers\HistorialMovimientoController.php(13): App\Models\HistorialMovimientoModel->obtenerHistorial()
+#6 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+#7 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+#8 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\sistemainventario\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-09-12 16:51:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'e.nombre_equipo' in 'field list'
+[Method: GET, Route: HistorialMovimiento]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `s`.`nombre_sede` AS `sede`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `sede` `s` ON `ud`.`id_sede` = `s`.`id_sede`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC', [], false)
+ 2 APPPATH\Models\HistorialMovimientoModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\HistorialMovimientoController.php(13): App\Models\HistorialMovimientoModel->obtenerHistorial()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 16:51:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'e.nombre_equipo' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `s`.`nombre_sede` AS `sede`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `sede` `s` ON `ud`.`id_sede` = `s`.`id_sede`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `s`.`nombre_sede` AS `sede`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `sede` `s` ON `ud`.`id_sede` = `s`.`id_sede`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `s`.`nombre_sede` AS `sede`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `sede` `s` ON `ud`.`id_sede` = `s`.`id_sede`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC', [], false)
+ 4 APPPATH\Models\HistorialMovimientoModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\HistorialMovimientoController.php(13): App\Models\HistorialMovimientoModel->obtenerHistorial()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 16:51:28 --> [Caused by] mysqli_sql_exception: Unknown column 'e.nombre_equipo' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `s`.`nombre_sede` AS `sede`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `sede` `s` ON `ud`.`id_sede` = `s`.`id_sede`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `s`.`nombre_sede` AS `sede`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `sede` `s` ON `ud`.`id_sede` = `s`.`id_sede`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `s`.`nombre_sede` AS `sede`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `sede` `s` ON `ud`.`id_sede` = `s`.`id_sede`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `hm`.`id_historial_movimiento`, `e`.`nombre_equipo` AS `equipo`, `uo`.`nombre_unidad` AS `unidad_origen`, `ud`.`nombre_unidad` AS `unidad_destino`, `s`.`nombre_sede` AS `sede`, `us`.`nombre_usuario` AS `usuario`, `hm`.`fecha_movimiento`, `hm`.`motivo`
+FROM `historial_movimiento` `hm`
+JOIN `asignacion_equipo` `ae` ON `hm`.`id_asignacion` = `ae`.`id_asignacion`
+JOIN `equipo` `e` ON `ae`.`id_equipo` = `e`.`id_equipo`
+JOIN `unidad_organica` `uo` ON `hm`.`id_unidad_origen` = `uo`.`id_unidad_organica`
+JOIN `unidad_organica` `ud` ON `hm`.`id_unidad_destino` = `ud`.`id_unidad_organica`
+JOIN `sede` `s` ON `ud`.`id_sede` = `s`.`id_sede`
+JOIN `usuario` `us` ON `hm`.`id_usuario` = `us`.`id_usuario`
+ORDER BY `hm`.`fecha_movimiento` DESC', [], false)
+ 5 APPPATH\Models\HistorialMovimientoModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\HistorialMovimientoController.php(13): App\Models\HistorialMovimientoModel->obtenerHistorial()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 17:16:15 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\HistorialMovimientoModel::obtenerHistorial
+[Method: GET, Route: HistorialMovimiento]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\HistorialMovimientoController.php(13): CodeIgniter\Model->__call('obtenerHistorial', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 17:16:31 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\HistorialMovimientoModel::obtenerHistorial
+[Method: GET, Route: HistorialMovimiento]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\HistorialMovimientoController.php(13): CodeIgniter\Model->__call('obtenerHistorial', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+ERROR - 2025-09-12 17:25:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.*, `ae`.`id_asignacion`
+FROM `historial_movimiento`
+JOIN `asignacion_equipo`...' at line 1 in C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `histori...', 0)
+#1 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `histori...')
+#2 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `histori...')
+#3 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `histori...', Array, false)
+#4 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sistemainventario\app\Controllers\HistorialMovimientoController.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+#8 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+#9 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\sistemainventario\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-09-12 17:25:42 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.*, `ae`.`id_asignacion`
+FROM `historial_movimiento`
+JOIN `asignacion_equipo`...' at line 1
+[Method: GET, Route: HistorialMovimiento]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `historial_movimiento` `hm`.*, `ae`.`id_asignacion`
+FROM `historial_movimiento`
+JOIN `asignacion_equipo` `ae` ON `ae`.`id_asignacion` = `hm`.`id_asignacion`
+JOIN `unidad_organica` `uo` ON `uo`.`id_unidad_organica` = `hm`.`id_unidad_origen`
+JOIN `unidad_organica` `uod` ON `uod`.`id_unidad_organica` = `hm`.`id_unidad_destino`
+JOIN `usuario` `us` ON `us`.`id_usuario` = `hm`.`id_usuario`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\HistorialMovimientoController.php(20): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 17:25:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.*, `ae`.`id_asignacion`
+FROM `historial_movimiento`
+JOIN `asignacion_equipo`...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `historial_movimiento` `hm`.*, `ae`.`id_asignacion`
+FROM `historial_movimiento`
+JOIN `asignacion_equipo` `ae` ON `ae`.`id_asignacion` = `hm`.`id_asignacion`
+JOIN `unidad_organica` `uo` ON `uo`.`id_unidad_organica` = `hm`.`id_unidad_origen`
+JOIN `unidad_organica` `uod` ON `uod`.`id_unidad_organica` = `hm`.`id_unidad_destino`
+JOIN `usuario` `us` ON `us`.`id_usuario` = `hm`.`id_usuario`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `historial_movimiento` `hm`.*, `ae`.`id_asignacion`
+FROM `historial_movimiento`
+JOIN `asignacion_equipo` `ae` ON `ae`.`id_asignacion` = `hm`.`id_asignacion`
+JOIN `unidad_organica` `uo` ON `uo`.`id_unidad_organica` = `hm`.`id_unidad_origen`
+JOIN `unidad_organica` `uod` ON `uod`.`id_unidad_organica` = `hm`.`id_unidad_destino`
+JOIN `usuario` `us` ON `us`.`id_usuario` = `hm`.`id_usuario`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `historial_movimiento` `hm`.*, `ae`.`id_asignacion`
+FROM `historial_movimiento`
+JOIN `asignacion_equipo` `ae` ON `ae`.`id_asignacion` = `hm`.`id_asignacion`
+JOIN `unidad_organica` `uo` ON `uo`.`id_unidad_organica` = `hm`.`id_unidad_origen`
+JOIN `unidad_organica` `uod` ON `uod`.`id_unidad_organica` = `hm`.`id_unidad_destino`
+JOIN `usuario` `us` ON `us`.`id_usuario` = `hm`.`id_usuario`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\HistorialMovimientoController.php(20): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 17:25:42 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.*, `ae`.`id_asignacion`
+FROM `historial_movimiento`
+JOIN `asignacion_equipo`...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `historial_movimiento` `hm`.*, `ae`.`id_asignacion`
+FROM `historial_movimiento`
+JOIN `asignacion_equipo` `ae` ON `ae`.`id_asignacion` = `hm`.`id_asignacion`
+JOIN `unidad_organica` `uo` ON `uo`.`id_unidad_organica` = `hm`.`id_unidad_origen`
+JOIN `unidad_organica` `uod` ON `uod`.`id_unidad_organica` = `hm`.`id_unidad_destino`
+JOIN `usuario` `us` ON `us`.`id_usuario` = `hm`.`id_usuario`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `historial_movimiento` `hm`.*, `ae`.`id_asignacion`
+FROM `historial_movimiento`
+JOIN `asignacion_equipo` `ae` ON `ae`.`id_asignacion` = `hm`.`id_asignacion`
+JOIN `unidad_organica` `uo` ON `uo`.`id_unidad_organica` = `hm`.`id_unidad_origen`
+JOIN `unidad_organica` `uod` ON `uod`.`id_unidad_organica` = `hm`.`id_unidad_destino`
+JOIN `usuario` `us` ON `us`.`id_usuario` = `hm`.`id_usuario`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `historial_movimiento` `hm`.*, `ae`.`id_asignacion`
+FROM `historial_movimiento`
+JOIN `asignacion_equipo` `ae` ON `ae`.`id_asignacion` = `hm`.`id_asignacion`
+JOIN `unidad_organica` `uo` ON `uo`.`id_unidad_organica` = `hm`.`id_unidad_origen`
+JOIN `unidad_organica` `uod` ON `uod`.`id_unidad_organica` = `hm`.`id_unidad_destino`
+JOIN `usuario` `us` ON `us`.`id_usuario` = `hm`.`id_usuario`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `historial_movimiento` `hm`.*, `ae`.`id_asignacion`
+FROM `historial_movimiento`
+JOIN `asignacion_equipo` `ae` ON `ae`.`id_asignacion` = `hm`.`id_asignacion`
+JOIN `unidad_organica` `uo` ON `uo`.`id_unidad_organica` = `hm`.`id_unidad_origen`
+JOIN `unidad_organica` `uod` ON `uod`.`id_unidad_organica` = `hm`.`id_unidad_destino`
+JOIN `usuario` `us` ON `us`.`id_usuario` = `hm`.`id_usuario`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\HistorialMovimientoController.php(20): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-12 17:27:15 --> ErrorException: Undefined array key "origen"
+[Method: GET, Route: HistorialMovimiento]
+in APPPATH\Views\HistorialMovimiento.php on line 26.
+ 1 APPPATH\Views\HistorialMovimiento.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "origen"', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\HistorialMovimiento.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\HistorialMovimiento.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('HistorialMovimiento', [], true)
+ 5 APPPATH\Controllers\HistorialMovimientoController.php(23): view('HistorialMovimiento', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')

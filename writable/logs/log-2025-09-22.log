@@ -1,0 +1,1093 @@
+DEBUG - 2025-09-22 12:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-22 12:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-22 14:05:29 --> ErrorException: Undefined variable $modelo
+[Method: GET, Route: Catalogo/AtributoEquipos]
+in APPPATH\Views\Catalogo\AtributoEquipos.php on line 117.
+ 1 APPPATH\Views\Catalogo\AtributoEquipos.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modelo', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\Catalogo\\AtributoEquipos.php', 117)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\Catalogo\\AtributoEquipos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Catalogo/AtributoEquipos', [], true)
+ 5 APPPATH\Controllers\AtributoEquipoController.php(15): view('Catalogo/AtributoEquipos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AtributoEquipoController->listarCaract()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoEquipoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 14:30:13 --> ErrorException: Undefined variable $AtributoEquipoModel
+[Method: GET, Route: Catalogo/AtributoEquipos]
+in APPPATH\Controllers\AtributoEquipoController.php on line 13.
+ 1 APPPATH\Controllers\AtributoEquipoController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $AtributoEquipoModel', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Controllers\\AtributoEquipoController.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\AtributoEquipoController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 14:31:51 --> ErrorException: Undefined variable $AtributoEquipoModel
+[Method: GET, Route: Catalogo/AtributoEquipos]
+in APPPATH\Controllers\AtributoEquipoController.php on line 22.
+ 1 APPPATH\Controllers\AtributoEquipoController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $AtributoEquipoModel', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Controllers\\AtributoEquipoController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AtributoEquipoController->listarCaract()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoEquipoController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 14:32:29 --> ErrorException: Undefined variable $AtributoEquipoModel
+[Method: GET, Route: Catalogo/AtributoEquipos]
+in APPPATH\Controllers\AtributoEquipoController.php on line 22.
+ 1 APPPATH\Controllers\AtributoEquipoController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $AtributoEquipoModel', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Controllers\\AtributoEquipoController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AtributoEquipoController->listarCaract()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoEquipoController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 14:33:00 --> ErrorException: Undefined variable $AtributoEquipoModel
+[Method: GET, Route: Catalogo/AtributoEquipos]
+in APPPATH\Controllers\AtributoEquipoController.php on line 22.
+ 1 APPPATH\Controllers\AtributoEquipoController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $AtributoEquipoModel', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Controllers\\AtributoEquipoController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AtributoEquipoController->listarCaract()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoEquipoController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 14:33:01 --> ErrorException: Undefined variable $AtributoEquipoModel
+[Method: GET, Route: Catalogo/AtributoEquipos]
+in APPPATH\Controllers\AtributoEquipoController.php on line 22.
+ 1 APPPATH\Controllers\AtributoEquipoController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $AtributoEquipoModel', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Controllers\\AtributoEquipoController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AtributoEquipoController->listarCaract()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoEquipoController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 14:33:43 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+[Method: GET, Route: Catalogo/AtributoEquipos]
+in APPPATH\Models\AtributoEquipoModel.php on line 23.
+ 1 APPPATH\Controllers\AtributoEquipoController.php(22): App\Models\AtributoEquipoModel->obtenerAtributoTipo()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AtributoEquipoController->listarCaract()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoEquipoController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 14:35:25 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+[Method: GET, Route: Catalogo/AtributoEquipos]
+in APPPATH\Models\AtributoEquipoModel.php on line 23.
+ 1 APPPATH\Controllers\AtributoEquipoController.php(22): App\Models\AtributoEquipoModel->obtenerAtributoTipo()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AtributoEquipoController->listarCaract()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoEquipoController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 14:35:44 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+[Method: GET, Route: Catalogo/AtributoEquipos]
+in APPPATH\Models\AtributoEquipoModel.php on line 23.
+ 1 APPPATH\Controllers\AtributoEquipoController.php(22): App\Models\AtributoEquipoModel->obtenerAtributoTipo()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AtributoEquipoController->listarCaract()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoEquipoController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 14:35:45 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+[Method: GET, Route: Catalogo/AtributoEquipos]
+in APPPATH\Models\AtributoEquipoModel.php on line 23.
+ 1 APPPATH\Controllers\AtributoEquipoController.php(22): App\Models\AtributoEquipoModel->obtenerAtributoTipo()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AtributoEquipoController->listarCaract()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoEquipoController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+ERROR - 2025-09-22 14:40:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`tipo_equipo` AS `tipo_equipo`
+FROM `atributo_equipo` `ae`
+JOIN `tipo_equipo...' at line 1 in C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `ae`.`id...', 0)
+#1 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ae`.`id...')
+#2 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ae`.`id...')
+#3 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ae`.`id...', Array, false)
+#4 C:\xampp\htdocs\sistemainventario\app\Models\AtributoEquipoModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemainventario\app\Controllers\AtributoEquipoController.php(22): App\Models\AtributoEquipoModel->obtenerAtributoTipo()
+#6 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\AtributoEquipoController->listarCaract()
+#7 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoEquipoController))
+#8 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\sistemainventario\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-09-22 14:40:21 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`tipo_equipo` AS `tipo_equipo`
+FROM `atributo_equipo` `ae`
+JOIN `tipo_equipo...' at line 1
+[Method: GET, Route: Catalogo/AtributoEquipos]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ae`.`id_atributo_equipo ae`.`equipo_atributo AS atributo te`.`tipo_equipo` AS `tipo_equipo`
+FROM `atributo_equipo` `ae`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `ae`.`id_tipo_equipo`
+GROUP BY `id_atributo_equipo`
+ORDER BY `id_atributo_equipo` DESC', [], false)
+ 2 APPPATH\Models\AtributoEquipoModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\AtributoEquipoController.php(22): App\Models\AtributoEquipoModel->obtenerAtributoTipo()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AtributoEquipoController->listarCaract()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoEquipoController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 14:40:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`tipo_equipo` AS `tipo_equipo`
+FROM `atributo_equipo` `ae`
+JOIN `tipo_equipo...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ae`.`id_atributo_equipo ae`.`equipo_atributo AS atributo te`.`tipo_equipo` AS `tipo_equipo`
+FROM `atributo_equipo` `ae`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `ae`.`id_tipo_equipo`
+GROUP BY `id_atributo_equipo`
+ORDER BY `id_atributo_equipo` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ae`.`id_atributo_equipo ae`.`equipo_atributo AS atributo te`.`tipo_equipo` AS `tipo_equipo`
+FROM `atributo_equipo` `ae`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `ae`.`id_tipo_equipo`
+GROUP BY `id_atributo_equipo`
+ORDER BY `id_atributo_equipo` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ae`.`id_atributo_equipo ae`.`equipo_atributo AS atributo te`.`tipo_equipo` AS `tipo_equipo`
+FROM `atributo_equipo` `ae`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `ae`.`id_tipo_equipo`
+GROUP BY `id_atributo_equipo`
+ORDER BY `id_atributo_equipo` DESC', [], false)
+ 4 APPPATH\Models\AtributoEquipoModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\AtributoEquipoController.php(22): App\Models\AtributoEquipoModel->obtenerAtributoTipo()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AtributoEquipoController->listarCaract()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoEquipoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 14:40:21 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`tipo_equipo` AS `tipo_equipo`
+FROM `atributo_equipo` `ae`
+JOIN `tipo_equipo...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `ae`.`id_atributo_equipo ae`.`equipo_atributo AS atributo te`.`tipo_equipo` AS `tipo_equipo`
+FROM `atributo_equipo` `ae`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `ae`.`id_tipo_equipo`
+GROUP BY `id_atributo_equipo`
+ORDER BY `id_atributo_equipo` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ae`.`id_atributo_equipo ae`.`equipo_atributo AS atributo te`.`tipo_equipo` AS `tipo_equipo`
+FROM `atributo_equipo` `ae`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `ae`.`id_tipo_equipo`
+GROUP BY `id_atributo_equipo`
+ORDER BY `id_atributo_equipo` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ae`.`id_atributo_equipo ae`.`equipo_atributo AS atributo te`.`tipo_equipo` AS `tipo_equipo`
+FROM `atributo_equipo` `ae`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `ae`.`id_tipo_equipo`
+GROUP BY `id_atributo_equipo`
+ORDER BY `id_atributo_equipo` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ae`.`id_atributo_equipo ae`.`equipo_atributo AS atributo te`.`tipo_equipo` AS `tipo_equipo`
+FROM `atributo_equipo` `ae`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `ae`.`id_tipo_equipo`
+GROUP BY `id_atributo_equipo`
+ORDER BY `id_atributo_equipo` DESC', [], false)
+ 5 APPPATH\Models\AtributoEquipoModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AtributoEquipoController.php(22): App\Models\AtributoEquipoModel->obtenerAtributoTipo()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AtributoEquipoController->listarCaract()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoEquipoController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+ERROR - 2025-09-22 14:43:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`tipo_equipo` AS `tipo_equipo`
+FROM (`atributo_equipo`, `atributo_equipo` `a...' at line 1 in C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `ae`.`id...', 0)
+#1 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ae`.`id...')
+#2 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ae`.`id...')
+#3 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ae`.`id...', Array, false)
+#4 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sistemainventario\app\Models\AtributoEquipoModel.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sistemainventario\app\Controllers\AtributoEquipoController.php(22): App\Models\AtributoEquipoModel->obtenerAtributoTipo()
+#8 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\AtributoEquipoController->listarCaract()
+#9 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoEquipoController))
+#10 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\sistemainventario\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-09-22 14:43:12 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`tipo_equipo` AS `tipo_equipo`
+FROM (`atributo_equipo`, `atributo_equipo` `a...' at line 1
+[Method: GET, Route: Catalogo/AtributoEquipos]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ae`.`id_atributo_equipo ae`.`equipo_atributo AS atributo te`.`tipo_equipo` AS `tipo_equipo`
+FROM (`atributo_equipo`, `atributo_equipo` `ae`)
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `ae`.`id_tipo_equipo`
+GROUP BY `id_atributo_equipo`
+ORDER BY `id_atributo_equipo` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AtributoEquipoModel.php(23): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\AtributoEquipoController.php(22): App\Models\AtributoEquipoModel->obtenerAtributoTipo()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AtributoEquipoController->listarCaract()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoEquipoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 14:43:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`tipo_equipo` AS `tipo_equipo`
+FROM (`atributo_equipo`, `atributo_equipo` `a...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ae`.`id_atributo_equipo ae`.`equipo_atributo AS atributo te`.`tipo_equipo` AS `tipo_equipo`
+FROM (`atributo_equipo`, `atributo_equipo` `ae`)
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `ae`.`id_tipo_equipo`
+GROUP BY `id_atributo_equipo`
+ORDER BY `id_atributo_equipo` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ae`.`id_atributo_equipo ae`.`equipo_atributo AS atributo te`.`tipo_equipo` AS `tipo_equipo`
+FROM (`atributo_equipo`, `atributo_equipo` `ae`)
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `ae`.`id_tipo_equipo`
+GROUP BY `id_atributo_equipo`
+ORDER BY `id_atributo_equipo` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ae`.`id_atributo_equipo ae`.`equipo_atributo AS atributo te`.`tipo_equipo` AS `tipo_equipo`
+FROM (`atributo_equipo`, `atributo_equipo` `ae`)
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `ae`.`id_tipo_equipo`
+GROUP BY `id_atributo_equipo`
+ORDER BY `id_atributo_equipo` DESC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\AtributoEquipoModel.php(23): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\AtributoEquipoController.php(22): App\Models\AtributoEquipoModel->obtenerAtributoTipo()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AtributoEquipoController->listarCaract()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoEquipoController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 14:43:12 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`tipo_equipo` AS `tipo_equipo`
+FROM (`atributo_equipo`, `atributo_equipo` `a...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `ae`.`id_atributo_equipo ae`.`equipo_atributo AS atributo te`.`tipo_equipo` AS `tipo_equipo`
+FROM (`atributo_equipo`, `atributo_equipo` `ae`)
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `ae`.`id_tipo_equipo`
+GROUP BY `id_atributo_equipo`
+ORDER BY `id_atributo_equipo` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ae`.`id_atributo_equipo ae`.`equipo_atributo AS atributo te`.`tipo_equipo` AS `tipo_equipo`
+FROM (`atributo_equipo`, `atributo_equipo` `ae`)
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `ae`.`id_tipo_equipo`
+GROUP BY `id_atributo_equipo`
+ORDER BY `id_atributo_equipo` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ae`.`id_atributo_equipo ae`.`equipo_atributo AS atributo te`.`tipo_equipo` AS `tipo_equipo`
+FROM (`atributo_equipo`, `atributo_equipo` `ae`)
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `ae`.`id_tipo_equipo`
+GROUP BY `id_atributo_equipo`
+ORDER BY `id_atributo_equipo` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ae`.`id_atributo_equipo ae`.`equipo_atributo AS atributo te`.`tipo_equipo` AS `tipo_equipo`
+FROM (`atributo_equipo`, `atributo_equipo` `ae`)
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `ae`.`id_tipo_equipo`
+GROUP BY `id_atributo_equipo`
+ORDER BY `id_atributo_equipo` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\AtributoEquipoModel.php(23): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AtributoEquipoController.php(22): App\Models\AtributoEquipoModel->obtenerAtributoTipo()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AtributoEquipoController->listarCaract()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoEquipoController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 14:44:20 --> ErrorException: Undefined array key "equipo_atributo"
+[Method: GET, Route: Catalogo/AtributoEquipos]
+in APPPATH\Views\Catalogo\AtributoEquipos.php on line 73.
+ 1 APPPATH\Views\Catalogo\AtributoEquipos.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "equipo_atributo"', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\Catalogo\\AtributoEquipos.php', 73)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\Catalogo\\AtributoEquipos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Catalogo/AtributoEquipos', [], true)
+ 5 APPPATH\Controllers\AtributoEquipoController.php(24): view('Catalogo/AtributoEquipos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AtributoEquipoController->listarCaract()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoEquipoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 14:52:40 --> ErrorException: Undefined variable $tipo_equipo
+[Method: GET, Route: Catalogo/AtributoEquipos]
+in APPPATH\Views\Catalogo\AtributoEquipos.php on line 41.
+ 1 APPPATH\Views\Catalogo\AtributoEquipos.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipo_equipo', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\Catalogo\\AtributoEquipos.php', 41)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\Catalogo\\AtributoEquipos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Catalogo/AtributoEquipos', [], true)
+ 5 APPPATH\Controllers\AtributoEquipoController.php(24): view('Catalogo/AtributoEquipos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AtributoEquipoController->listarCaract()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoEquipoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 15:14:05 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: Catalogo/AtributoEquipos/guardar]
+in SYSTEMPATH\BaseModel.php on line 824.
+ 1 SYSTEMPATH\BaseModel.php(824): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\AtributoEquipoController.php(32): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AtributoEquipoController->guardarCaract()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoEquipoController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 15:14:13 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: Catalogo/AtributoEquipos/guardar]
+in SYSTEMPATH\BaseModel.php on line 824.
+ 1 SYSTEMPATH\BaseModel.php(824): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\AtributoEquipoController.php(32): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AtributoEquipoController->guardarCaract()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoEquipoController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 15:14:22 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: Catalogo/AtributoEquipos/guardar]
+in SYSTEMPATH\BaseModel.php on line 824.
+ 1 SYSTEMPATH\BaseModel.php(824): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\AtributoEquipoController.php(32): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AtributoEquipoController->guardarCaract()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoEquipoController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+DEBUG - 2025-09-22 15:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-22 15:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-22 16:31:13 --> ErrorException: Cannot use App\Models\EquipoModel as EquipoModel because the name is already in use
+[Method: GET, Route: DetalleEquipos/38]
+in APPPATH\Controllers\ValatriEquipoController.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-09-22 16:31:58 --> ErrorException: Cannot use App\Models\EquipoModel as EquipoModel because the name is already in use
+[Method: GET, Route: DetalleEquipos/38]
+in APPPATH\Controllers\ValatriEquipoController.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-09-22 16:32:40 --> ErrorException: Undefined variable $equipo
+[Method: GET, Route: DetalleEquipos/38]
+in APPPATH\Controllers\ValatriEquipoController.php on line 17.
+ 1 APPPATH\Controllers\ValatriEquipoController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $equipo', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Controllers\\ValatriEquipoController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ValatriEquipoController->detalle('38')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ValatriEquipoController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 16:39:55 --> ParseError: syntax error, unexpected token "return"
+[Method: GET, Route: DetalleEquipos/38]
+in APPPATH\Controllers\ValatriEquipoController.php on line 20.
+ 1 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sistemainventario\\vendor\\composer/../../app\\Controllers\\ValatriEquipoController.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\ValatriEquipoController')
+ 3 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\ValatriEquipoController', true)
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 16:40:47 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\EquipoModel::obtenerConTipo
+[Method: GET, Route: DetalleEquipos/38]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\ValatriEquipoController.php(16): CodeIgniter\Model->__call('obtenerConTipo', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ValatriEquipoController->detalle('38')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ValatriEquipoController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+ERROR - 2025-09-22 16:41:47 --> mysqli_sql_exception: Table 'inventarioequipos.equipoe' doesn't exist in C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `e`.*, `...', 0)
+#1 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `e`.*, `...')
+#2 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `e`.*, `...')
+#3 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `e`.*, `...', Array, false)
+#4 C:\xampp\htdocs\sistemainventario\app\Models\EquipoModel.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemainventario\app\Controllers\ValatriEquipoController.php(16): App\Models\EquipoModel->obtenerConTipo('38')
+#6 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\ValatriEquipoController->detalle('38')
+#7 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ValatriEquipoController))
+#8 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\sistemainventario\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-09-22 16:41:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'inventarioequipos.equipoe' doesn't exist
+[Method: GET, Route: DetalleEquipos/38]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `e`.*, `te`.`tipo_equipo`
+FROM `equipoe`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `e`.`id_tipo_equipo`
+WHERE `e`.`id_equipo` = :e.id_equipo:', [...], false)
+ 2 APPPATH\Models\EquipoModel.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ValatriEquipoController.php(16): App\Models\EquipoModel->obtenerConTipo('38')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ValatriEquipoController->detalle('38')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ValatriEquipoController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 16:41:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'inventarioequipos.equipoe' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `e`.*, `te`.`tipo_equipo`
+FROM `equipoe`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `e`.`id_tipo_equipo`
+WHERE `e`.`id_equipo` = \'38\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `e`.*, `te`.`tipo_equipo`
+FROM `equipoe`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `e`.`id_tipo_equipo`
+WHERE `e`.`id_equipo` = \'38\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `e`.*, `te`.`tipo_equipo`
+FROM `equipoe`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `e`.`id_tipo_equipo`
+WHERE `e`.`id_equipo` = :e.id_equipo:', [...], false)
+ 4 APPPATH\Models\EquipoModel.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\ValatriEquipoController.php(16): App\Models\EquipoModel->obtenerConTipo('38')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ValatriEquipoController->detalle('38')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ValatriEquipoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 16:41:47 --> [Caused by] mysqli_sql_exception: Table 'inventarioequipos.equipoe' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `e`.*, `te`.`tipo_equipo`
+FROM `equipoe`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `e`.`id_tipo_equipo`
+WHERE `e`.`id_equipo` = \'38\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `e`.*, `te`.`tipo_equipo`
+FROM `equipoe`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `e`.`id_tipo_equipo`
+WHERE `e`.`id_equipo` = \'38\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `e`.*, `te`.`tipo_equipo`
+FROM `equipoe`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `e`.`id_tipo_equipo`
+WHERE `e`.`id_equipo` = \'38\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `e`.*, `te`.`tipo_equipo`
+FROM `equipoe`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `e`.`id_tipo_equipo`
+WHERE `e`.`id_equipo` = :e.id_equipo:', [...], false)
+ 5 APPPATH\Models\EquipoModel.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\ValatriEquipoController.php(16): App\Models\EquipoModel->obtenerConTipo('38')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ValatriEquipoController->detalle('38')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ValatriEquipoController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+ERROR - 2025-09-22 16:44:19 --> mysqli_sql_exception: Table 'inventarioequipos.equipoe' doesn't exist in C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `e`.*, `...', 0)
+#1 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `e`.*, `...')
+#2 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `e`.*, `...')
+#3 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `e`.*, `...', Array, false)
+#4 C:\xampp\htdocs\sistemainventario\app\Models\EquipoModel.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemainventario\app\Controllers\ValatriEquipoController.php(16): App\Models\EquipoModel->obtenerConTipo('38')
+#6 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\ValatriEquipoController->detalle('38')
+#7 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ValatriEquipoController))
+#8 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\sistemainventario\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-09-22 16:44:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'inventarioequipos.equipoe' doesn't exist
+[Method: GET, Route: DetalleEquipos/38]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `e`.*, `te`.`tipo_equipo`
+FROM `equipoe`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `e`.`id_tipo_equipo`
+WHERE `e`.`id_equipo` = :e.id_equipo:', [...], false)
+ 2 APPPATH\Models\EquipoModel.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ValatriEquipoController.php(16): App\Models\EquipoModel->obtenerConTipo('38')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ValatriEquipoController->detalle('38')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ValatriEquipoController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 16:44:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'inventarioequipos.equipoe' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `e`.*, `te`.`tipo_equipo`
+FROM `equipoe`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `e`.`id_tipo_equipo`
+WHERE `e`.`id_equipo` = \'38\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `e`.*, `te`.`tipo_equipo`
+FROM `equipoe`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `e`.`id_tipo_equipo`
+WHERE `e`.`id_equipo` = \'38\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `e`.*, `te`.`tipo_equipo`
+FROM `equipoe`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `e`.`id_tipo_equipo`
+WHERE `e`.`id_equipo` = :e.id_equipo:', [...], false)
+ 4 APPPATH\Models\EquipoModel.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\ValatriEquipoController.php(16): App\Models\EquipoModel->obtenerConTipo('38')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ValatriEquipoController->detalle('38')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ValatriEquipoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 16:44:19 --> [Caused by] mysqli_sql_exception: Table 'inventarioequipos.equipoe' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `e`.*, `te`.`tipo_equipo`
+FROM `equipoe`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `e`.`id_tipo_equipo`
+WHERE `e`.`id_equipo` = \'38\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `e`.*, `te`.`tipo_equipo`
+FROM `equipoe`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `e`.`id_tipo_equipo`
+WHERE `e`.`id_equipo` = \'38\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `e`.*, `te`.`tipo_equipo`
+FROM `equipoe`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `e`.`id_tipo_equipo`
+WHERE `e`.`id_equipo` = \'38\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `e`.*, `te`.`tipo_equipo`
+FROM `equipoe`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `e`.`id_tipo_equipo`
+WHERE `e`.`id_equipo` = :e.id_equipo:', [...], false)
+ 5 APPPATH\Models\EquipoModel.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\ValatriEquipoController.php(16): App\Models\EquipoModel->obtenerConTipo('38')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ValatriEquipoController->detalle('38')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ValatriEquipoController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 16:45:22 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\AtributoEquipoModel::obtenerPorTipo
+[Method: GET, Route: DetalleEquipos/38]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\ValatriEquipoController.php(17): CodeIgniter\Model->__call('obtenerPorTipo', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ValatriEquipoController->detalle('38')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ValatriEquipoController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 16:45:23 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\AtributoEquipoModel::obtenerPorTipo
+[Method: GET, Route: DetalleEquipos/38]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\ValatriEquipoController.php(17): CodeIgniter\Model->__call('obtenerPorTipo', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ValatriEquipoController->detalle('38')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ValatriEquipoController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 16:47:24 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\AtributoEquipoModel::atributoPorTipo
+[Method: GET, Route: DetalleEquipos/38]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\ValatriEquipoController.php(17): CodeIgniter\Model->__call('atributoPorTipo', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ValatriEquipoController->detalle('38')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ValatriEquipoController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 16:47:41 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\ValatriequipoModel::obtenerCaracEquipos
+[Method: GET, Route: DetalleEquipos/38]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\ValatriEquipoController.php(18): CodeIgniter\Model->__call('obtenerCaracEquipos', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ValatriEquipoController->detalle('38')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ValatriEquipoController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+DEBUG - 2025-09-22 16:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-22 16:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-22 16:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-22 16:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-22 16:57:17 --> ErrorException: Undefined array key "id_atributo_equipo"
+[Method: GET, Route: Catalogo/ModeloEquipos]
+in APPPATH\Views\Catalogo\ModeloEquipos.php on line 76.
+ 1 APPPATH\Views\Catalogo\ModeloEquipos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_atributo_equipo"', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\Catalogo\\ModeloEquipos.php', 76)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\Catalogo\\ModeloEquipos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Catalogo/ModeloEquipos', [], true)
+ 5 APPPATH\Controllers\ModeloEquipoController.php(23): view('Catalogo/ModeloEquipos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ModeloEquipoController->listarModelos()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ModeloEquipoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 17:00:30 --> ErrorException: Undefined array key "id_atributo_equipo"
+[Method: GET, Route: Catalogo/ModeloEquipos]
+in APPPATH\Views\Catalogo\ModeloEquipos.php on line 76.
+ 1 APPPATH\Views\Catalogo\ModeloEquipos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_atributo_equipo"', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\Catalogo\\ModeloEquipos.php', 76)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\Catalogo\\ModeloEquipos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Catalogo/ModeloEquipos', [], true)
+ 5 APPPATH\Controllers\ModeloEquipoController.php(23): view('Catalogo/ModeloEquipos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ModeloEquipoController->listarModelos()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ModeloEquipoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 17:00:40 --> ErrorException: Undefined array key "id_tipo_equipo"
+[Method: GET, Route: Catalogo/ModeloEquipos]
+in APPPATH\Views\Catalogo\ModeloEquipos.php on line 78.
+ 1 APPPATH\Views\Catalogo\ModeloEquipos.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_tipo_equipo"', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\Catalogo\\ModeloEquipos.php', 78)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\Catalogo\\ModeloEquipos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Catalogo/ModeloEquipos', [], true)
+ 5 APPPATH\Controllers\ModeloEquipoController.php(23): view('Catalogo/ModeloEquipos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ModeloEquipoController->listarModelos()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ModeloEquipoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 17:01:14 --> ErrorException: Undefined array key "id_marca_equipo"
+[Method: GET, Route: Catalogo/ModeloEquipos]
+in APPPATH\Views\Catalogo\ModeloEquipos.php on line 78.
+ 1 APPPATH\Views\Catalogo\ModeloEquipos.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_marca_equipo"', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\Catalogo\\ModeloEquipos.php', 78)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\Catalogo\\ModeloEquipos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Catalogo/ModeloEquipos', [], true)
+ 5 APPPATH\Controllers\ModeloEquipoController.php(23): view('Catalogo/ModeloEquipos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ModeloEquipoController->listarModelos()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ModeloEquipoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 17:01:35 --> ErrorException: Undefined variable $modelo
+[Method: GET, Route: Catalogo/ModeloEquipos]
+in APPPATH\Views\Catalogo\ModeloEquipos.php on line 136.
+ 1 APPPATH\Views\Catalogo\ModeloEquipos.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modelo', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\Catalogo\\ModeloEquipos.php', 136)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\Catalogo\\ModeloEquipos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Catalogo/ModeloEquipos', [], true)
+ 5 APPPATH\Controllers\ModeloEquipoController.php(23): view('Catalogo/ModeloEquipos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ModeloEquipoController->listarModelos()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ModeloEquipoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+DEBUG - 2025-09-22 17:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-22 17:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-22 17:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-22 17:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-22 17:39:47 --> Error: Class "codeigniter\Model" not found
+[Method: GET, Route: Catalogo/EstadoEquipos]
+in APPPATH\Models\EstadoEquipoModel.php on line 6.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include()
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sistemainventario\\vendor\\composer/../../app\\Models\\EstadoEquipoModel.php')
+ 3 APPPATH\Controllers\EstadoEquipoController.php(14): Composer\Autoload\ClassLoader->loadClass('App\\Models\\EstadoEquipoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\EstadoEquipoController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 17:40:54 --> Error: Class "codeigniter\Model" not found
+[Method: GET, Route: Catalogo/EstadoEquipos]
+in APPPATH\Models\EstadoEquipoModel.php on line 6.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include()
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sistemainventario\\vendor\\composer/../../app\\Models\\EstadoEquipoModel.php')
+ 3 APPPATH\Controllers\EstadoEquipoController.php(14): Composer\Autoload\ClassLoader->loadClass('App\\Models\\EstadoEquipoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\EstadoEquipoController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 17:41:48 --> Error: Class "codeigniter\Model" not found
+[Method: GET, Route: Catalogo/EstadoEquipos]
+in APPPATH\Models\EstadoEquipoModel.php on line 6.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include()
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sistemainventario\\vendor\\composer/../../app\\Models\\EstadoEquipoModel.php')
+ 3 APPPATH\Controllers\EstadoEquipoController.php(14): Composer\Autoload\ClassLoader->loadClass('App\\Models\\EstadoEquipoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\EstadoEquipoController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 17:42:54 --> Error: Class "codeigniter\Model" not found
+[Method: GET, Route: Catalogo/EstadoEquipos]
+in APPPATH\Models\EstadoEquipoModel.php on line 6.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include()
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sistemainventario\\vendor\\composer/../../app\\Models\\EstadoEquipoModel.php')
+ 3 APPPATH\Controllers\EstadoEquipoController.php(14): Composer\Autoload\ClassLoader->loadClass('App\\Models\\EstadoEquipoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\EstadoEquipoController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 17:43:01 --> Error: Class "codeigniter\Model" not found
+[Method: GET, Route: Catalogo/EstadoEquipos]
+in APPPATH\Models\EstadoEquipoModel.php on line 6.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include()
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sistemainventario\\vendor\\composer/../../app\\Models\\EstadoEquipoModel.php')
+ 3 APPPATH\Controllers\EstadoEquipoController.php(14): Composer\Autoload\ClassLoader->loadClass('App\\Models\\EstadoEquipoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\EstadoEquipoController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 17:49:51 --> ErrorException: Undefined variable $marca
+[Method: GET, Route: Catalogo/EstadoEquipos]
+in APPPATH\Views\Catalogo\EstadoEquipos.php on line 113.
+ 1 APPPATH\Views\Catalogo\EstadoEquipos.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $marca', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\Catalogo\\EstadoEquipos.php', 113)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\Catalogo\\EstadoEquipos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Catalogo/EstadoEquipos', [], true)
+ 5 APPPATH\Controllers\EstadoEquipoController.php(21): view('Catalogo/EstadoEquipos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EstadoEquipoController->listarEstados()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstadoEquipoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+DEBUG - 2025-09-22 17:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-22 18:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-22 18:06:01 --> mysqli_sql_exception: Duplicate entry 'nuevo' for key 'estado_equipo' in C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `es...', 0)
+#1 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `es...')
+#2 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `es...')
+#3 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `es...', Array, false)
+#4 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\sistemainventario\app\Controllers\EstadoEquipoController.php(26): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\EstadoEquipoController->guardarEstado()
+#10 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstadoEquipoController))
+#11 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\sistemainventario\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2025-09-22 18:06:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'nuevo' for key 'estado_equipo'
+[Method: POST, Route: Catalogo/EstadoEquipos/guardar]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (:estado_equipo:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\EstadoEquipoController.php(26): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EstadoEquipoController->guardarEstado()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstadoEquipoController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 18:06:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'nuevo' for key 'estado_equipo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (\'nuevo\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (\'nuevo\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (:estado_equipo:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\EstadoEquipoController.php(26): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EstadoEquipoController->guardarEstado()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstadoEquipoController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 18:06:01 --> [Caused by] mysqli_sql_exception: Duplicate entry 'nuevo' for key 'estado_equipo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (\'nuevo\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (\'nuevo\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (\'nuevo\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (:estado_equipo:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\EstadoEquipoController.php(26): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EstadoEquipoController->guardarEstado()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstadoEquipoController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+ERROR - 2025-09-22 18:06:50 --> mysqli_sql_exception: Duplicate entry 'nuevo' for key 'estado_equipo' in C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `es...', 0)
+#1 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `es...')
+#2 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `es...')
+#3 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `es...', Array, false)
+#4 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\sistemainventario\app\Controllers\EstadoEquipoController.php(26): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\EstadoEquipoController->guardarEstado()
+#10 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstadoEquipoController))
+#11 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\sistemainventario\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2025-09-22 18:06:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'nuevo' for key 'estado_equipo'
+[Method: POST, Route: Catalogo/EstadoEquipos/guardar]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (:estado_equipo:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\EstadoEquipoController.php(26): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EstadoEquipoController->guardarEstado()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstadoEquipoController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 18:06:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'nuevo' for key 'estado_equipo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (\'nuevo\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (\'nuevo\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (:estado_equipo:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\EstadoEquipoController.php(26): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EstadoEquipoController->guardarEstado()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstadoEquipoController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 18:06:50 --> [Caused by] mysqli_sql_exception: Duplicate entry 'nuevo' for key 'estado_equipo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (\'nuevo\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (\'nuevo\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (\'nuevo\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (:estado_equipo:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\EstadoEquipoController.php(26): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EstadoEquipoController->guardarEstado()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstadoEquipoController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+ERROR - 2025-09-22 18:07:40 --> mysqli_sql_exception: Duplicate entry 'nuevo' for key 'estado_equipo' in C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `es...', 0)
+#1 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `es...')
+#2 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `es...')
+#3 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `es...', Array, false)
+#4 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\sistemainventario\app\Controllers\EstadoEquipoController.php(26): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\EstadoEquipoController->guardarEstado()
+#10 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstadoEquipoController))
+#11 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\sistemainventario\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2025-09-22 18:07:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'nuevo' for key 'estado_equipo'
+[Method: POST, Route: Catalogo/EstadoEquipos/guardar]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (:estado_equipo:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\EstadoEquipoController.php(26): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EstadoEquipoController->guardarEstado()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstadoEquipoController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 18:07:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'nuevo' for key 'estado_equipo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (\'nuevo\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (\'nuevo\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (:estado_equipo:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\EstadoEquipoController.php(26): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EstadoEquipoController->guardarEstado()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstadoEquipoController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 18:07:40 --> [Caused by] mysqli_sql_exception: Duplicate entry 'nuevo' for key 'estado_equipo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (\'nuevo\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (\'nuevo\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (\'nuevo\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (:estado_equipo:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\EstadoEquipoController.php(26): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EstadoEquipoController->guardarEstado()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstadoEquipoController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+ERROR - 2025-09-22 18:10:56 --> mysqli_sql_exception: Duplicate entry 'nuevo' for key 'estado_equipo' in C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `es...', 0)
+#1 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `es...')
+#2 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `es...')
+#3 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `es...', Array, false)
+#4 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\sistemainventario\app\Controllers\EstadoEquipoController.php(26): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\EstadoEquipoController->guardarEstado()
+#10 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstadoEquipoController))
+#11 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\sistemainventario\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2025-09-22 18:10:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'nuevo' for key 'estado_equipo'
+[Method: POST, Route: Catalogo/EstadoEquipos/guardar]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (:estado_equipo:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\EstadoEquipoController.php(26): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EstadoEquipoController->guardarEstado()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstadoEquipoController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 18:10:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'nuevo' for key 'estado_equipo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (\'nuevo\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (\'nuevo\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (:estado_equipo:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\EstadoEquipoController.php(26): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EstadoEquipoController->guardarEstado()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstadoEquipoController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-22 18:10:56 --> [Caused by] mysqli_sql_exception: Duplicate entry 'nuevo' for key 'estado_equipo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (\'nuevo\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (\'nuevo\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (\'nuevo\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `estado_equipo` (`estado_equipo`) VALUES (:estado_equipo:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\EstadoEquipoController.php(26): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EstadoEquipoController->guardarEstado()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstadoEquipoController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+DEBUG - 2025-09-22 18:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-22 18:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-22 18:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-22 18:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-22 18:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-22 18:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-22 18:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-22 18:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

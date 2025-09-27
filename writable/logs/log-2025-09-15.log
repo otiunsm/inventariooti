@@ -1,0 +1,32 @@
+DEBUG - 2025-09-15 00:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-15 00:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-15 00:20:42 --> ErrorException: Undefined array key "origen"
+[Method: GET, Route: HistorialMovimiento]
+in APPPATH\Views\HistorialMovimiento.php on line 26.
+ 1 APPPATH\Views\HistorialMovimiento.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "origen"', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\HistorialMovimiento.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\HistorialMovimiento.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('HistorialMovimiento', [], true)
+ 5 APPPATH\Controllers\HistorialMovimientoController.php(23): view('HistorialMovimiento', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-09-15 00:30:29 --> ErrorException: Undefined array key "origen"
+[Method: GET, Route: HistorialMovimiento]
+in APPPATH\Views\HistorialMovimiento.php on line 26.
+ 1 APPPATH\Views\HistorialMovimiento.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "origen"', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\HistorialMovimiento.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\HistorialMovimiento.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('HistorialMovimiento', [], true)
+ 5 APPPATH\Controllers\HistorialMovimientoController.php(23): view('HistorialMovimiento', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HistorialMovimientoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMovimientoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
