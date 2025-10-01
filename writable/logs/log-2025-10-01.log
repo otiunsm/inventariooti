@@ -1,0 +1,402 @@
+CRITICAL - 2025-10-01 01:03:42 --> ErrorException: Undefined variable $request
+[Method: POST, Route: ModAsignacion/asignaciones/editar/32]
+in APPPATH\Controllers\AsignacionEquipo\AsignacionEquipoController.php on line 31.
+ 1 APPPATH\Controllers\AsignacionEquipo\AsignacionEquipoController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Controllers\\AsignacionEquipo\\AsignacionEquipoController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AsignacionEquipo\AsignacionEquipoController->editarAsignacion('32')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsignacionEquipo\AsignacionEquipoController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+DEBUG - 2025-10-01 01:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 01:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-01 02:11:14 --> ErrorException: Undefined variable $equipos
+[Method: GET, Route: ModAsignacion/asignaciones]
+in APPPATH\Views\ModAsignacion\asignaciones.php on line 34.
+ 1 APPPATH\Views\ModAsignacion\asignaciones.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $equipos', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\ModAsignacion\\asignaciones.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\ModAsignacion\\asignaciones.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('ModAsignacion/asignaciones', [], true)
+ 5 APPPATH\Controllers\AsignacionEquipo\AsignacionEquipoController.php(25): view('ModAsignacion/asignaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AsignacionEquipo\AsignacionEquipoController->listarAsignaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsignacionEquipo\AsignacionEquipoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-10-01 02:18:22 --> ErrorException: Undefined variable $equipos
+[Method: GET, Route: ModAsignacion/asignaciones]
+in APPPATH\Views\ModAsignacion\asignaciones.php on line 34.
+ 1 APPPATH\Views\ModAsignacion\asignaciones.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $equipos', 'C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\ModAsignacion\\asignaciones.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistemainventario\\app\\Views\\ModAsignacion\\asignaciones.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('ModAsignacion/asignaciones', [], true)
+ 5 APPPATH\Controllers\AsignacionEquipo\AsignacionEquipoController.php(25): view('ModAsignacion/asignaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AsignacionEquipo\AsignacionEquipoController->listarAsignaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsignacionEquipo\AsignacionEquipoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+DEBUG - 2025-10-01 03:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 03:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 03:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 03:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 03:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 03:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 03:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 03:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 03:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 03:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 03:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 03:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 03:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 03:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 03:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 03:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 04:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 04:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 04:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 04:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 04:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 04:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 04:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 04:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 04:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 04:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 04:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 04:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 04:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 04:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 04:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 13:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 14:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 15:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 15:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 15:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 15:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 15:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 16:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 16:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 16:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 16:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 16:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 16:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 16:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 16:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 16:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 16:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 16:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 16:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 16:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 16:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 16:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 16:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 16:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 17:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 17:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 17:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 17:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 17:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 17:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 17:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 18:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 18:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 18:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 18:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 18:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 18:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 18:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 18:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 18:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 18:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 18:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 18:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 18:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 18:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 18:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 18:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 18:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 18:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-01 18:52:59 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: asignacionequipo/crear]
+in SYSTEMPATH\BaseModel.php on line 1008.
+ 1 SYSTEMPATH\BaseModel.php(1008): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(860): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\AsignacionEquipo\AsignacionEquipoController.php(53): CodeIgniter\Model->update('65', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AsignacionEquipo\AsignacionEquipoController->crearAsignacion()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsignacionEquipo\AsignacionEquipoController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+DEBUG - 2025-10-01 18:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 18:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 18:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-01 19:00:32 --> mysqli_sql_exception: Unknown column 'uo.unidad_organica' in 'field list' in C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `e`.`id_...', 0)
+#1 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `e`.`id_...')
+#2 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `e`.`id_...')
+#3 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `e`.`id_...', Array, false)
+#4 C:\xampp\htdocs\sistemainventario\app\Models\EquipoModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemainventario\app\Controllers\GestionEquipoController.php(32): App\Models\EquipoModel->obtenerEquipos()
+#6 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\GestionEquipoController->index()
+#7 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionEquipoController))
+#8 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\sistemainventario\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-10-01 19:00:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'uo.unidad_organica' in 'field list'
+[Method: GET, Route: GestionEquipos]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `e`.`id_equipo` AS `Id`, `e`.`codig_patrimonial` AS `codigoPatrimonial`, `e`.`num_serie` AS `numeroSerie`, `te`.`tipo_equipo` AS `tipoEquipo`, `mae`.`marca_equipo` AS `marcaEquipo`, `me`.`modelo_equipo` AS `modeloEquipo`, `es`.`estado_equipo` AS `estadoEquipo`, `uo`.`unidad_organica` AS `unidadActual`, `e`.`id_tipo_equipo`, `e`.`id_modelo_equipo`, `e`.`id_estado_equipo`
+FROM `equipo` `e`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `e`.`id_tipo_equipo`
+JOIN `modelo_equipo` `me` ON `me`.`id_modelo_equipo` = `e`.`id_modelo_equipo`
+JOIN `marca_equipo` `mae` ON `mae`.`id_marca_equipo` = `me`.`id_marca_equipo`
+JOIN `estado_equipo` `es` ON `es`.`id_estado_equipo` = `e`.`id_estado_equipo`
+LEFT JOIN `unidad_organica` `u` ON `u`.`id_unidad_organica` = `e`.`unidad_actual`
+ORDER BY `e`.`id_equipo` DESC', [], false)
+ 2 APPPATH\Models\EquipoModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\GestionEquipoController.php(32): App\Models\EquipoModel->obtenerEquipos()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GestionEquipoController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionEquipoController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-10-01 19:00:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'uo.unidad_organica' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `e`.`id_equipo` AS `Id`, `e`.`codig_patrimonial` AS `codigoPatrimonial`, `e`.`num_serie` AS `numeroSerie`, `te`.`tipo_equipo` AS `tipoEquipo`, `mae`.`marca_equipo` AS `marcaEquipo`, `me`.`modelo_equipo` AS `modeloEquipo`, `es`.`estado_equipo` AS `estadoEquipo`, `uo`.`unidad_organica` AS `unidadActual`, `e`.`id_tipo_equipo`, `e`.`id_modelo_equipo`, `e`.`id_estado_equipo`
+FROM `equipo` `e`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `e`.`id_tipo_equipo`
+JOIN `modelo_equipo` `me` ON `me`.`id_modelo_equipo` = `e`.`id_modelo_equipo`
+JOIN `marca_equipo` `mae` ON `mae`.`id_marca_equipo` = `me`.`id_marca_equipo`
+JOIN `estado_equipo` `es` ON `es`.`id_estado_equipo` = `e`.`id_estado_equipo`
+LEFT JOIN `unidad_organica` `u` ON `u`.`id_unidad_organica` = `e`.`unidad_actual`
+ORDER BY `e`.`id_equipo` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `e`.`id_equipo` AS `Id`, `e`.`codig_patrimonial` AS `codigoPatrimonial`, `e`.`num_serie` AS `numeroSerie`, `te`.`tipo_equipo` AS `tipoEquipo`, `mae`.`marca_equipo` AS `marcaEquipo`, `me`.`modelo_equipo` AS `modeloEquipo`, `es`.`estado_equipo` AS `estadoEquipo`, `uo`.`unidad_organica` AS `unidadActual`, `e`.`id_tipo_equipo`, `e`.`id_modelo_equipo`, `e`.`id_estado_equipo`
+FROM `equipo` `e`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `e`.`id_tipo_equipo`
+JOIN `modelo_equipo` `me` ON `me`.`id_modelo_equipo` = `e`.`id_modelo_equipo`
+JOIN `marca_equipo` `mae` ON `mae`.`id_marca_equipo` = `me`.`id_marca_equipo`
+JOIN `estado_equipo` `es` ON `es`.`id_estado_equipo` = `e`.`id_estado_equipo`
+LEFT JOIN `unidad_organica` `u` ON `u`.`id_unidad_organica` = `e`.`unidad_actual`
+ORDER BY `e`.`id_equipo` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `e`.`id_equipo` AS `Id`, `e`.`codig_patrimonial` AS `codigoPatrimonial`, `e`.`num_serie` AS `numeroSerie`, `te`.`tipo_equipo` AS `tipoEquipo`, `mae`.`marca_equipo` AS `marcaEquipo`, `me`.`modelo_equipo` AS `modeloEquipo`, `es`.`estado_equipo` AS `estadoEquipo`, `uo`.`unidad_organica` AS `unidadActual`, `e`.`id_tipo_equipo`, `e`.`id_modelo_equipo`, `e`.`id_estado_equipo`
+FROM `equipo` `e`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `e`.`id_tipo_equipo`
+JOIN `modelo_equipo` `me` ON `me`.`id_modelo_equipo` = `e`.`id_modelo_equipo`
+JOIN `marca_equipo` `mae` ON `mae`.`id_marca_equipo` = `me`.`id_marca_equipo`
+JOIN `estado_equipo` `es` ON `es`.`id_estado_equipo` = `e`.`id_estado_equipo`
+LEFT JOIN `unidad_organica` `u` ON `u`.`id_unidad_organica` = `e`.`unidad_actual`
+ORDER BY `e`.`id_equipo` DESC', [], false)
+ 4 APPPATH\Models\EquipoModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\GestionEquipoController.php(32): App\Models\EquipoModel->obtenerEquipos()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GestionEquipoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionEquipoController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-10-01 19:00:32 --> [Caused by] mysqli_sql_exception: Unknown column 'uo.unidad_organica' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `e`.`id_equipo` AS `Id`, `e`.`codig_patrimonial` AS `codigoPatrimonial`, `e`.`num_serie` AS `numeroSerie`, `te`.`tipo_equipo` AS `tipoEquipo`, `mae`.`marca_equipo` AS `marcaEquipo`, `me`.`modelo_equipo` AS `modeloEquipo`, `es`.`estado_equipo` AS `estadoEquipo`, `uo`.`unidad_organica` AS `unidadActual`, `e`.`id_tipo_equipo`, `e`.`id_modelo_equipo`, `e`.`id_estado_equipo`
+FROM `equipo` `e`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `e`.`id_tipo_equipo`
+JOIN `modelo_equipo` `me` ON `me`.`id_modelo_equipo` = `e`.`id_modelo_equipo`
+JOIN `marca_equipo` `mae` ON `mae`.`id_marca_equipo` = `me`.`id_marca_equipo`
+JOIN `estado_equipo` `es` ON `es`.`id_estado_equipo` = `e`.`id_estado_equipo`
+LEFT JOIN `unidad_organica` `u` ON `u`.`id_unidad_organica` = `e`.`unidad_actual`
+ORDER BY `e`.`id_equipo` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `e`.`id_equipo` AS `Id`, `e`.`codig_patrimonial` AS `codigoPatrimonial`, `e`.`num_serie` AS `numeroSerie`, `te`.`tipo_equipo` AS `tipoEquipo`, `mae`.`marca_equipo` AS `marcaEquipo`, `me`.`modelo_equipo` AS `modeloEquipo`, `es`.`estado_equipo` AS `estadoEquipo`, `uo`.`unidad_organica` AS `unidadActual`, `e`.`id_tipo_equipo`, `e`.`id_modelo_equipo`, `e`.`id_estado_equipo`
+FROM `equipo` `e`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `e`.`id_tipo_equipo`
+JOIN `modelo_equipo` `me` ON `me`.`id_modelo_equipo` = `e`.`id_modelo_equipo`
+JOIN `marca_equipo` `mae` ON `mae`.`id_marca_equipo` = `me`.`id_marca_equipo`
+JOIN `estado_equipo` `es` ON `es`.`id_estado_equipo` = `e`.`id_estado_equipo`
+LEFT JOIN `unidad_organica` `u` ON `u`.`id_unidad_organica` = `e`.`unidad_actual`
+ORDER BY `e`.`id_equipo` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `e`.`id_equipo` AS `Id`, `e`.`codig_patrimonial` AS `codigoPatrimonial`, `e`.`num_serie` AS `numeroSerie`, `te`.`tipo_equipo` AS `tipoEquipo`, `mae`.`marca_equipo` AS `marcaEquipo`, `me`.`modelo_equipo` AS `modeloEquipo`, `es`.`estado_equipo` AS `estadoEquipo`, `uo`.`unidad_organica` AS `unidadActual`, `e`.`id_tipo_equipo`, `e`.`id_modelo_equipo`, `e`.`id_estado_equipo`
+FROM `equipo` `e`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `e`.`id_tipo_equipo`
+JOIN `modelo_equipo` `me` ON `me`.`id_modelo_equipo` = `e`.`id_modelo_equipo`
+JOIN `marca_equipo` `mae` ON `mae`.`id_marca_equipo` = `me`.`id_marca_equipo`
+JOIN `estado_equipo` `es` ON `es`.`id_estado_equipo` = `e`.`id_estado_equipo`
+LEFT JOIN `unidad_organica` `u` ON `u`.`id_unidad_organica` = `e`.`unidad_actual`
+ORDER BY `e`.`id_equipo` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `e`.`id_equipo` AS `Id`, `e`.`codig_patrimonial` AS `codigoPatrimonial`, `e`.`num_serie` AS `numeroSerie`, `te`.`tipo_equipo` AS `tipoEquipo`, `mae`.`marca_equipo` AS `marcaEquipo`, `me`.`modelo_equipo` AS `modeloEquipo`, `es`.`estado_equipo` AS `estadoEquipo`, `uo`.`unidad_organica` AS `unidadActual`, `e`.`id_tipo_equipo`, `e`.`id_modelo_equipo`, `e`.`id_estado_equipo`
+FROM `equipo` `e`
+JOIN `tipo_equipo` `te` ON `te`.`id_tipo_equipo` = `e`.`id_tipo_equipo`
+JOIN `modelo_equipo` `me` ON `me`.`id_modelo_equipo` = `e`.`id_modelo_equipo`
+JOIN `marca_equipo` `mae` ON `mae`.`id_marca_equipo` = `me`.`id_marca_equipo`
+JOIN `estado_equipo` `es` ON `es`.`id_estado_equipo` = `e`.`id_estado_equipo`
+LEFT JOIN `unidad_organica` `u` ON `u`.`id_unidad_organica` = `e`.`unidad_actual`
+ORDER BY `e`.`id_equipo` DESC', [], false)
+ 5 APPPATH\Models\EquipoModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\GestionEquipoController.php(32): App\Models\EquipoModel->obtenerEquipos()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GestionEquipoController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionEquipoController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+DEBUG - 2025-10-01 19:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-01 19:01:18 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`inventarioequipos`.`asignacion_equipo`, CONSTRAINT `fk_equipo` FOREIGN KEY (`id_equipo`) REFERENCES `equipo` (`id_equipo`) ON UPDATE CASCADE) in C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `eq...', 0)
+#1 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `eq...')
+#2 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `eq...')
+#3 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `eq...', Array, false)
+#4 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\BaseModel.php(1152): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\sistemainventario\app\Controllers\GestionEquipoController.php(147): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\GestionEquipoController->eliminar('65')
+#8 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionEquipoController))
+#9 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\sistemainventario\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\sistemainventario\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-10-01 19:01:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`inventarioequipos`.`asignacion_equipo`, CONSTRAINT `fk_equipo` FOREIGN KEY (`id_equipo`) REFERENCES `equipo` (`id_equipo`) ON UPDATE CASCADE)
+[Method: GET, Route: GestionEquipos/eliminar/65]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `equipo`
+WHERE `id_equipo` IN :id_equipo:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1152): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\GestionEquipoController.php(147): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GestionEquipoController->eliminar('65')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionEquipoController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-10-01 19:01:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`inventarioequipos`.`asignacion_equipo`, CONSTRAINT `fk_equipo` FOREIGN KEY (`id_equipo`) REFERENCES `equipo` (`id_equipo`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `equipo`
+WHERE `id_equipo` IN (\'65\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `equipo`
+WHERE `id_equipo` IN (\'65\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `equipo`
+WHERE `id_equipo` IN :id_equipo:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1152): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\GestionEquipoController.php(147): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GestionEquipoController->eliminar('65')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionEquipoController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+CRITICAL - 2025-10-01 19:01:18 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`inventarioequipos`.`asignacion_equipo`, CONSTRAINT `fk_equipo` FOREIGN KEY (`id_equipo`) REFERENCES `equipo` (`id_equipo`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `equipo`
+WHERE `id_equipo` IN (\'65\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `equipo`
+WHERE `id_equipo` IN (\'65\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `equipo`
+WHERE `id_equipo` IN (\'65\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `equipo`
+WHERE `id_equipo` IN :id_equipo:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1152): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\GestionEquipoController.php(147): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GestionEquipoController->eliminar('65')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionEquipoController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistemainventario\\public\\index.php')
+DEBUG - 2025-10-01 19:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 19:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 19:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 19:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 19:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 19:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 19:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 19:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 19:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 19:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 19:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

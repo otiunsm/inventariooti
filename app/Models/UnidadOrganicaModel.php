@@ -7,6 +7,7 @@ class UnidadOrganicaModel extends Model
 {
     protected $table = 'unidad_organica';
     protected $primaryKey = 'id_unidad_organica'; // CORREGIDO
+    protected $returnType = 'array';
     protected $allowedFields = [
         'unidad_organica',
         'id_tipo_unidad_organica',

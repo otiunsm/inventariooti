@@ -32,36 +32,18 @@
                     <span>Gestión de Equipos</span>
                 </a>
             </li>
-
             <!-- Asignaciones -->
-            <li x-data="{ open: <?= (in_array(uri_string(), ['TipoUnidadAdministrativa', 'TipoUnidadAcademica'])) ? 'true' : 'false' ?> }">
-                <button @click="open = !open"
-                        class="flex items-center w-full px-4 py-3 rounded-lg text-gray-600 hover:bg-green-50">
-                    <i class="fas fa-random mr-3"></i>
-                    <span class="flex-1 text-left">Asignaciones</span>
-                    <i :class="open ? 'fas fa-chevron-up' : 'fas fa-chevron-down'" class="ml-2"></i>
-                </button>
-                <template x-if="open">
-                    <ul class="pl-10 mt-1 space-y-1">
-                        <li>
-                            <a href="<?= base_url('TipoUnidadAdministrativa') ?>" 
-                            class="block px-4 py-2 rounded-lg <?= (uri_string() == 'AequiAdminis') ? 'text-green-800 bg-green-100' : 'text-gray-600 hover:bg-green-50' ?>">
-                                <i class="fas fa-briefcase mr-2"></i> Unidad Administrativa
-                            </a>
-                        </li>
-                        <li>
-                            <a href="<?= base_url('TipoUnidadAcademica') ?>" 
-                            class="block px-4 py-2 rounded-lg <?= (uri_string() == 'AequiAcademi') ? 'text-green-800 bg-green-100' : 'text-gray-600 hover:bg-green-50' ?>">
-                                <i class="fas fa-university mr-2"></i> Unidad Académica
-                            </a>
-                        </li>
-                    </ul>
-                </template>
+            <li>
+                <a href="<?= base_url('ModAsignacion/asignaciones') ?>"
+                    class="flex items-center px-4 py3 rounded-lg <?= (uri_string() == 'ModAsignacion/asignaciones') ? 'text-green-800 bg-green-100' : 'text-gray-600 hover:bg-green-50' ?>">
+                        <i class="fas fa-tasks mr-3"></i>
+                        <span>Asignaciones de Equipos</span>
+                </a>
             </li>
 
             <!-- Historial -->
             <li>
-                <a href="<?= base_url('HistorialMovimiento') ?>" 
+                <a href="<?= base_url('ModMovimientos/HistorialMovimientos') ?>" 
                 class="flex items-center px-4 py-3 rounded-lg <?= (uri_string() == 'HistorialMovimiento') ? 'text-green-800 bg-green-100' : 'text-gray-600 hover:bg-green-50' ?>">
                     <i class="fas fa-history mr-3"></i>
                     <span>Historial de Movimientos</span>

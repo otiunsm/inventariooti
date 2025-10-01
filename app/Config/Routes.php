@@ -32,10 +32,17 @@ $routes->get('GestionEquipos/modelos/(:num)', 'GestionEquipoController::obtenerM
 
 $routes->get('DetalleEquipos/(:num)', 'ValatriEquipoController::detalle/$1');
 $routes->post('equipos/agregar-caracteristica', 'ValatriEquipoController::agregarCaract');
-$routes->get('equipos/eliminar-caracteristica/(:num)/(:num)', 'ValatriEquipoController::eliminarCaract/$1/$2');
+$routes->post('equipos/eliminar-caracteristica/(:num)/(:num)', 'ValatriEquipoController::eliminarCaract/$1/$2');
+
+/** MOD Asignacion de Equipos */
+$routes->get('ModAsignacion/asignaciones', 'AsignacionEquipo\AsignacionEquipoController::listarAsignaciones');
+$routes->post('asignacionequipo/crear', 'AsignacionEquipo\AsignacionEquipoController::crearAsignacion');
+// Para buscas unidades y equipos en select 
+$routes->get('unidadOrganica/buscar', 'AsignacionEquipo\AsignacionEquipoController::buscarUnidadesOrganicas');
+$routes->post('asignacionequipo/editar/(:num)','AsignacionEquipo\AsignacionEquipoController::editarAsignacion/$1');
 
 /**Historial de Movimientos */
-$routes->get('HistorialMovimiento', 'HistorialMovimientoController::index');
+$routes->get('ModMovimientos/HistorialMovimientos','HistorialMovimiento\HistorialMovimientoController::index');
 
 /**Catalogo */
 
@@ -92,6 +99,7 @@ $routes->get('Catalogo/Sedes', 'SedeController::listarSedes');
 $routes->post('Catalogo/Sede/guardar', 'SedeController::crearSedes');
 $routes->post('Catalogo/Sede/editar/(:num)', 'SedeController::editarSede/$1');
 $routes->post('Catalogo/Sede/eliminar/(:num)', 'SedeController::eliminarSede/$1');
+
 
 
 

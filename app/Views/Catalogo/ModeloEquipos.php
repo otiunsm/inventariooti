@@ -23,21 +23,21 @@
                 ✕
             </button>
 
-            <h2 class="text-xl font-semibold text-green-700 mb-4">Añadir estado</h2>
+            <h2 class="text-xl font-semibold text-green-700 mb-4">Añadir un modelo</h2>
             
             <!-- Formulario -->
             <form action="<?= base_url('Catalogo/ModeloEquipos/guardar') ?>" method="post">
                 <div class="mb-4">
-                    <label for="modelo_equipo" class="block text-gray-700 font-medium mb-2">Ingresar un estado</label>
+                    <label for="modelo_equipo" class="block text-gray-700 font-medium mb-2">Ingresar un modelo</label>
                     <input type="text" name="modelo_equipo" id="modelo_equipo" 
                         class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-green-500"
                         placeholder="Ejemplo: HP EliteBook 840 G7" required> 
                 </div>
                 <div class="mb-4">
-                    <label for="crear_id_marca_equipo" class="block text-gray-700 font-medium mb-2">Tipo</label>
+                    <label for="crear_id_marca_equipo" class="block text-gray-700 font-medium mb-2">Marcas</label>
                     <select name="id_marca_equipo" id="crear_id_marca_equipo" 
                         class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-green-500" required>
-                        <option value="">Seleccione un Tipo de Equipo</option>
+                        <option value="">Seleccione una Marca</option>
                         <?php foreach ($marca_equipo as $marca): ?>
                             <option value="<?= $marca['id_marca_equipo'] ?>"><?= $marca['marca_equipo'] ?></option>
                         <?php endforeach; ?>

@@ -7,12 +7,14 @@ class EquipoModel extends Model
 {
     protected $table = 'equipo';
     protected $primaryKey = 'id_equipo';
+    protected $returnType = 'array';
     protected $allowedFields = [
         'id_tipo_equipo',
         'codig_patrimonial',
         'num_serie',
         'id_modelo_equipo',
-        'id_estado_equipo'
+        'id_estado_equipo',
+        'unidad_actual'
     ];
 
     // ✅ Listar equipos con JOINs
@@ -27,6 +29,7 @@ class EquipoModel extends Model
                 mae.marca_equipo AS marcaEquipo,
                 me.modelo_equipo AS modeloEquipo,
                 es.estado_equipo AS estadoEquipo,
+                u.unidad_organica AS unidadActual,
                 e.id_tipo_equipo,
                 e.id_modelo_equipo,
                 e.id_estado_equipo
@@ -35,6 +38,7 @@ class EquipoModel extends Model
             ->join('modelo_equipo me', 'me.id_modelo_equipo = e.id_modelo_equipo')
             ->join('marca_equipo mae', 'mae.id_marca_equipo = me.id_marca_equipo')
             ->join('estado_equipo es', 'es.id_estado_equipo = e.id_estado_equipo')
+            ->join('unidad_organica u', 'u.id_unidad_organica = e.unidad_actual', 'left')
             ->orderBy('e.id_equipo', 'DESC')
             ->get()
             ->getResultArray();

@@ -24,7 +24,7 @@
             <table class="w-full rounded-lg shadow-md border border-green-300">
                 <thead class="bg-green-700 text-white">
                     <tr>
-                        <th>Tipo</th><th>Código</th><th>Serie</th><th>Marca</th><th>Modelo</th><th>Estado</th><th>Acciones</th>
+                        <th>Tipo</th><th>Código</th><th>Serie</th><th>UnidadActual</th><th>Marca</th><th>Modelo</th><th>Estado</th><th>Acciones</th>
                     </tr>
                 </thead>
                 <tbody class="divide-y divide-green-200">
@@ -34,18 +34,25 @@
                                 <td class="text-center px-5 py-3 align-middle"><?= esc($e['tipoEquipo']) ?></td>
                                 <td class="text-center px-5 py-3 align-middle"><?= esc($e['codigoPatrimonial']) ?></td>
                                 <td class="text-center px-5 py-3 align-middle"><?= esc($e['numeroSerie']) ?></td>
+                                <td class="text-center px-5 py-3 align-middle"><?= esc($e['unidadActual'] ?? 'No asignado') ?></td>
                                 <td class="text-center px-5 py-3 align-middle"><?= esc($e['marcaEquipo'])?></td>
                                 <td class="text-center px-5 py-3 align-middle"><?= esc($e['modeloEquipo']) ?></td>
                                 <td class="text-center px-5 py-3 align-middle"><?= esc($e['estadoEquipo']) ?></td>
                                 <td class="px-5 py-3 text-center space-x-3 flex justify-center items-center">
                                     <!-- Botón Editar -->
-                                    <button type="button" 
-                                            onclick="document.getElementById('modalEditar<?= $e['Id'] ?>').classList.remove('hidden')" 
-                                            class="text-green-700 hover:text-green-900 focus:outline-none" aria-label="Editar equipo <?= esc($e['codigoPatrimonial']) ?>" title="Editar">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" >
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.232 5.232l3.536 3.536M9 11l6-6 3 3-6 6H9v-3z" />
+                                    <button 
+                                        type="button"
+                                        onclick="document.getElementById('modalEditar<?= $e['Id'] ?>').classList.remove('hidden')" 
+                                        class="text-yellow-600 hover:text-yellow-800 focus:outline-none" 
+                                        aria-label="Editar equipo <?= esc($e['codigoPatrimonial']) ?>" 
+                                        title="Editar">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" 
+                                            stroke="currentColor" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round" 
+                                            d="M15.232 5.232l3.536 3.536M9 11l6-6 3 3-6 6H9v-3z" />
                                         </svg>
                                     </button>
+
 
                                     <!-- Modal Editar -->
                                     <div id="modalEditar<?= $e['Id'] ?>" class="hidden fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50">
